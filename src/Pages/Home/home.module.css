@@ -1,0 +1,485 @@
+.CoverPic {
+  height: 600px;
+  background-size: cover;
+  background-color: rgb(164, 164, 164);
+  background-blend-mode: multiply;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.coverContent {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+}
+
+.CoverText {
+  font-size: 40px;
+  font-weight: 500;
+  color: white;
+}
+
+.CoverDesc {
+  font-size: 18px;
+  color: rgb(232, 232, 232);
+  text-align: center;
+}
+
+.coverBtn {
+  font-size: 20px;
+  color: white;
+  padding: 10px 20px 10px 20px;
+  background-color: #2a6231;
+  transition: 0.1s ease-in-out all;
+
+  &:hover {
+    cursor: pointer;
+    background-color: #25542b;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .CoverPic {
+    height: 70vh;
+    background-size: auto 100%;
+    background-position: center;
+  }
+
+  .coverContent {
+    text-align: center;
+    gap: 40px;
+  }
+}
+
+/* ABOUT SERVICES */
+
+.aboutServices {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  margin: 80px;
+}
+
+.servicesLeft {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.leftHead {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.leftDesc {
+  font-size: 15px;
+}
+
+.viewAllServicesBtn {
+  width: fit-content;
+  font-size: 18px;
+  color: white;
+  padding: 10px 20px 10px 20px;
+  background-color: #2a6231;
+  transition: 0.1s ease-in-out all;
+
+  &:hover {
+    cursor: pointer;
+    background-color: #25542b;
+  }
+}
+
+.aboutServicesImg {
+  width: 35rem;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 450px) {
+  .aboutServices {
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin: 30px;
+  }
+
+  .servicesLeft {
+    align-items: center;
+  }
+
+  .leftHead {
+    text-align: center;
+  }
+  
+  .leftDesc {
+    text-align: justify;
+  }
+  .aboutServicesImg {
+    width: 20rem;
+  }
+}
+
+/* PRICE DESC */
+
+.priceSectionWrapper {
+  padding: 100px;
+  background-color: #dbffe0;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  justify-content: center;
+  align-items: center;
+}
+
+.priceCardsWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.cardWrapper {
+  height: 200px;
+  width: 230px;
+  background-size: cover;
+  background-color: rgb(162, 162, 162);
+  background-blend-mode: multiply;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  /* align-items: center; */
+  justify-content: end;
+  color: white;
+  margin: 5px;
+  padding: 2%;
+  transition: 0.3s ease-in-out all;
+
+  &:hover {
+    cursor: pointer;
+    background-color: #194c1f;
+  }
+}
+
+.priceCardDesc {
+  font-size: 12px;
+}
+
+.priceCardTitle {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.priceSectionHead {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.priceSectionDesc {
+  font-size: 15px;
+  text-align: center;
+}
+
+.checkPriceBtn {
+  width: fit-content;
+  font-size: 18px;
+  color: white;
+  padding: 10px 20px 10px 20px;
+  background-color: #2a6231;
+  transition: 0.1s ease-in-out all;
+
+  &:hover {
+    cursor: pointer;
+    background-color: #25542b;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .priceSectionWrapper {
+    padding: 70px 40px 70px 40px;
+  }
+  .priceCardsWrapper {
+    flex-direction: column;
+  }
+  .cardWrapper {
+    height: 200px;
+    width: 300px;
+    padding: 20px;
+
+    &:hover {
+      cursor: auto;
+      background-color: rgb(162, 162, 162);
+    }
+  }
+  .priceCardDesc {
+    font-size: 15px;
+  }
+  
+  .priceCardTitle {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .priceSectionHead {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .priceSectionDesc {
+    font-size: 15px;
+    text-align: justify;
+  }
+}
+
+
+/* BOOK SECTION */
+.bookSectionWrapper {
+  padding: 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.bookSectionHead {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.bookSectionDesc {
+  font-size: 15px;
+  text-align: center;
+}
+
+.bookNowBtn {
+  width: fit-content;
+  font-size: 18px;
+  color: white;
+  padding: 10px 20px 10px 20px;
+  background-color: #2a6231;
+  transition: 0.1s ease-in-out all;
+
+  &:hover {
+    cursor: pointer;
+    background-color: #25542b;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .bookSectionWrapper {
+    padding: 50px;
+    gap: 50px;
+  }
+
+  .bookSectionHead {
+    text-align: center;
+  }
+
+  .bookSectionDesc {
+    text-align: justify;
+  }
+}
+
+.featuresWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+}
+
+.featureCard {
+  height: 300px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+  padding: 2%;
+  border: 1px solid white;
+  transition: 0.3s ease-in-out all;
+
+  &:hover {
+    cursor: pointer;
+    border: 1px solid rgb(180, 180, 180);
+    border-radius: 10px;
+  }
+}
+
+.featureLogo {
+  font-size: 35px;
+  color: #2a6231;
+}
+
+.featureCardHead {
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.featureCardDesc {
+  font-size: 15px;
+  text-align: center;
+}
+
+
+@media screen and (max-width: 450px) {
+  .featuresWrapper {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .featureCard {
+    height: fit-content;
+    width: fit-content;
+    padding: 30px 20px 30px 20px;
+    border: 1px solid rgb(218, 218, 218);
+    border-radius: 10px;
+  }
+
+  .featureCardHead {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .featureCardDesc {
+    font-size: 13px;
+    text-align: center;
+  }
+}
+
+
+/* QUOTE COVER SECTION */
+
+.quoteCoverPic {
+  height: 600px;
+  background-size: cover;
+  background-color: rgb(164, 164, 164);
+  background-blend-mode: multiply;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quoteCoverContent {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+}
+
+.quoteCoverText {
+  font-size: 40px;
+  font-weight: 500;
+  color: white;
+}
+
+.quoteCoverDesc {
+  font-size: 18px;
+  color: rgb(232, 232, 232);
+  text-align: center;
+}
+
+.quoteCoverBtn {
+  font-size: 20px;
+  color: white;
+  padding: 10px 20px 10px 20px;
+  background-color: #2a6231;
+  transition: 0.1s ease-in-out all;
+
+  &:hover {
+    cursor: pointer;
+    background-color: #25542b;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .quoteCoverPic {
+    height: 70vh;
+    background-size: auto 100%;
+    background-position: -570px center;
+  }
+
+  .quoteCoverContent {
+    text-align: center;
+    gap: 50px;
+  }
+
+  .quoteCoverText {
+    font-size: 20px;
+  }
+
+  .quoteCoverDesc {
+    font-size: 16px;
+  }
+}
+
+.CallUS {
+  display: flex; 
+  justify-content: center;
+  align-items: center; 
+  border: 1px solid #2a6231;
+  border-radius: 5px;
+  color: #2a6231;
+  padding: 10px;
+  width: fit-content;
+  transition: 0.3s ease-in-out all;
+  margin-left: 15px;
+  position: absolute; 
+  right: 10px; 
+  transform: translateY(-50%);
+  width: 150px;
+  background-color: rgb(0, 255, 157);
+  margin-bottom: auto;
+
+
+  &:hover {
+    cursor: pointer;
+    color: white;
+    background-color: #2a6231;
+  }
+}
+.GETQUOTE{
+  display: flex; 
+  justify-content: center;
+  align-items: center; 
+  border: 1px solid #2a6231;
+  border-radius: 5px;
+  color: #2a6231;
+  padding: 10px;
+  background-color: rgb(0, 255, 157);
+  width: fit-content;
+  transition: 0.3s ease-in-out all;
+  margin-left: 15px;
+  position: absolute; 
+  width: 150px;
+  right: 200px; 
+  transform: translateY(-50%);
+  margin-top: auto;
+
+  &:hover {
+    cursor: pointer;
+    color: white;
+    background-color: #2a6231;
+  }
+}
+
+.RightAlignedContent{
+  display: flex; /* Use flexbox for layout */
+  justify-content: flex-end;
+  position: fixed;
+}
+.FixedRightContent {
+  position: fixed;
+  top: 15%;
+  right: 0;
+  transform: translateY(-50%);
+}
