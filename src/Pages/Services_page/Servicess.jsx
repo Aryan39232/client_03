@@ -1,8 +1,6 @@
 import styles from "../../Components/Services/Services.module.css";
-import servicesData from "../../Assets/Data/services";
 import coverPic from "../../Assets/Images/Contact/cover.jpg";
-import { Navbar, Services } from "../../Components";
-import Upper_Footer from "../../Components/Upper_Footer/Upper_Footer";
+import { Services } from "../../Components";
 
 function ServiceCard({ serviceName, imgURL, Icon }) {
   return (

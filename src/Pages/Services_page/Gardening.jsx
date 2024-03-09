@@ -1,10 +1,7 @@
-import { Navbar } from "../../Components";
-
 import styles from "../about/about.module.css";
 import randomImg from "../../Assets/Images/About/random.jpg";
 import teamImg from "../../Assets/Images/About/team.jpg";
 import aboutCoverImg from "../../Assets/Images/About/cover.jpg";
-import Upper_Footer from "../../Components/Upper_Footer/Upper_Footer";
 
 const Gardening = () => {
   return (
