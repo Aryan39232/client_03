@@ -1,8 +1,6 @@
 import styles from "./ContactUs.module.css";
-import { Navbar } from "../../Components";
 import coverPic from "../../Assets/Images/Contact/cover.jpg";
 import { FaTwitter, FaInstagram, FaFacebook } from "react-icons/fa";
-import Upper_Footer from "../../Components/Upper_Footer/Upper_Footer";
 
 function ContactUs() {
   return (

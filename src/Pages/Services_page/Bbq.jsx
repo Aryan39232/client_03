@@ -1,10 +1,7 @@
-import { Navbar } from "../../Components";
-
 import styles from "../about/about.module.css";
 import randomImg from "../../Assets/Images/About/random.jpg";
 import teamImg from "../../Assets/Images/About/team.jpg";
 import aboutCoverImg from "../../Assets/Images/About/cover.jpg";
-import Upper_Footer from "../../Components/Upper_Footer/Upper_Footer";
 
 const Bbq = () => {
   return (
@@ -18,6 +15,65 @@ const Bbq = () => {
           oven / BBQ SERVICES{" "}
         </div>
 
+        <div className={styles.ourStoryWrapperpart2}>
+          <div className={styles.ourStoryText}>
+            <span className={styles.ourStoryHead}>
+              {" "}
+              Oven always keeps your food safe and BBQ always keeps it Hot{" "}
+            </span>
+
+            <span className={styles.ourStoryDesc}>
+              The oven is one of the world’s most loved cooking appliances. Not
+              only does it cook food in a unique way than other cooking
+              appliances, but it ties your home together with continual heat and
+              a style unlike any other. Ovens are easily identifiable and
+              frequently occupy a prominent position in the kitchen, the
+              heartbeat of your house!
+              <br />
+              <br />
+              With attention of all family members oven and bbq can last for
+              years, but there are too many components and fewer things that
+              needs care , it can be very challenging to know where to start.
+              <br />
+              <br />
+              The cast iron stove and cooker can accumulate dirt easily. If you
+              are inexperienced , you could miss some crucial parts of the oven.
+              <br />
+              <br />
+              We at BEST 1 CLEANERS believe that ‘’oven’’ cleaning ought to be
+              carried out by fully trained professionals and that’s why all of
+              our BEST 1 CLEANERS are trained to ISO 9001:2000 standards. Trust
+              us that our oven cleaning specialists to get your OVEN/BBQ looking
+              brand new!
+              <br />
+              <br />
+              <h2>
+                BEST 1 CLEANERS Oven and BBQ Cleaning Service is highly
+                recommended for those:
+              </h2>
+              <ul>
+                <li>
+                  • Who Use their oven on daily basis or more than twice per
+                  week{" "}
+                </li>
+                <li>• Who Use their BBQ on a regular basis or some occasion</li>
+                <li>
+                  •Who Are leaving a property or moving to the new one and
+                  require oven cleaning
+                </li>
+                <li>
+                  • Who Are renting their property via a holiday outlet and
+                  require BBQ cleaning for guests{" "}
+                </li>
+                <li>
+                  • Who Have not used their BBQ for long time and require BBQ
+                  cleaning
+                </li>
+              </ul>
+            </span>
+          </div>
+        </div>
+
         <div className={styles.about_Service}>
           <div className={styles.about_text_content}>
             <span className={styles.aboutHead}>
@@ -26,22 +82,13 @@ const Bbq = () => {
             </span>
 
             <span className={styles.aboutDesc}>
-              Once you’ve selected us to lead a better and happy life for you
-              and your family and call us to clean your oven / BBQ , you don’t
-              need to worry about doing anything else, you just need to be
-              stress free. Our oven cleaners specialists will arrive on time and
-              they will be fully equipped with ECO FRIENDLY chemicals and
-              everything needed to do an outstanding job.
-              {/* <br />
-              <br />
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et
-              deleniti sequi eos dolores. Eveniet saepe aliquid quia veniam
-              ullam in exercitationem perspiciatis corrupti aperiam odit
-              asperiores, tempore nostrum, magnam vel incidunt inventore.
-              <br />
-              <br />
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et
-              deleniti sequi eos dolores. Eveniet saepe aliquid quia veniam. */}
+              Once you choose us to enhance your family's quality of life and
+              happiness by entrusting us to clean your oven/BBQ, you can rest
+              assured that you won't have to lift a finger. Our goal is to
+              provide you with a stress-free experience. Our team of oven
+              cleaning specialists will arrive promptly and fully prepared with
+              eco-friendly cleaning solutions and all the necessary equipment to
+              deliver exceptional results.
             </span>
           </div>
 
@@ -98,10 +145,60 @@ const Bbq = () => {
               minutes before using it, as you would do with your brand new oven.
               <br />
               <br />
+              NOTE :- With oven cleaning service our professionals will also
+              clean the stovetop and rangehood with no extra charges .
+              <br />
+              <br />
             </span>
           </div>
 
           <img src={teamImg} className={styles.ourStoryImg} alt="" />
+        </div>
+
+        <div className={styles.ourStoryWrapperpart2}>
+          <div className={styles.ourStoryText}>
+            <span className={styles.ourStoryHead}>
+              {" "}
+              Process of our professionals for BBQ cleaning{" "}
+            </span>
+
+            <span className={styles.ourStoryDesc}>
+              1. Preparation :- Ensure the BBQ turned off and cool. Remove
+              grates , racks, and any removable parts.
+              <br />
+              <br />
+              2. Scrape and Brush :- Use a grill brush to scrape off loose
+              debris and residue from the grates and interior surfaces.
+              <br />
+              <br />
+              3. Soak Grates :- Soak the grates in a cleaning solution to help
+              break down grease and residue.
+              <br />
+              <br />
+              4. apply BBQ Cleaner :- Apply a BBQ cleaner or a mixture of baking
+              soda and water to the interior surfaces. Allow the cleaner to sit
+              for some time penetrate the grime.
+              <br />
+              <br />
+              5.Scrubbing :- Use a wire brush or a grill brush to scrub away
+              stubborn residue. Pay attention to corners and hard – to – reach
+              areas.
+              <br />
+              <br />
+              6. Rinse and Wipe :- Rinse the grates and wipe down the interior
+              with a damp or microfibre cloth to remove cleaning solution.
+              <br />
+              <br />
+              7. Dry and Reassemble :- Ensure all parts are thoroughly dry
+              before reassembling the BBQ .
+              <br />
+              <br />
+              8 . Exterior Cleaning :- Clean the exterior surfaces of the BBQ
+              with ECO friendly chemicals.
+              <br />
+              <br />
+            </span>
+          </div>
         </div>
       </div>
     </>
