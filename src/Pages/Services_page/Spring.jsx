@@ -9,7 +9,6 @@ import Upper_Footer from "../../Components/Upper_Footer/Upper_Footer";
 const Spring = () => {
   return (
     <>
-      <Navbar />
       <div className={styles.wrapper}>
         <div
           className={styles.heading}
@@ -26,34 +25,42 @@ const Spring = () => {
             </span>
 
             <span className={styles.ourStoryDesc}>
-              If you have ever tried to change mattress sheets or changed over
-              your mattress, you will better understand the effort and cost
-              involved in removing and replacing the one you have. To reduce the
-              time and spend more time with your loved ones , heavy lifting and
-              expense, you can simply renew your mattress with professional
-              mattress cleaning.
+              Spring cleaning is a thorough and comprehensive cleaning process
+              traditionally performed in households and sometimes in commercial
+              spaces during the spring season. It involves deep cleaning and
+              organizing various areas of a property to refresh and revitalize
+              the living or working environment.
               <br />
               <br />
-              Professional mattress cleaning process will not only cost you less
-              then a new one but it will look better than new one mattress.
-              Mattress cleaning is a crucial step in prolonging the life of your
-              mattress to ensure it goes the long distance.
+              It doesn’t matter if you are a minimalist or not at all things
+              seem to keep gathering around you and dust keeps piling on. Spring
+              cleaning typically involves cleaning and bedrooms, bathrooms,
+              kitchens, and common areas.
               <br />
               <br />
-              Professional mattress cleaning is very important for your health
-              and for the quality of your sleep. Moreover, with dirt and debris,
-              your mattress encounters sweat, spills and accidents. Our mattress
-              cleaning experts will clean and sanitise it with specialised
-              products and deodorizer methods that only a professional mattress
-              cleaning service can provide you at very affordable price.
+              It may also include tasks such as decluttering, purging unused or
+              unnecessary items, and reorganizing storage spaces to create a
+              more functional and orderly environment.
               <br />
               <br />
-              Professional mattress cleaning is very important for your health
-              and for the quality of your sleep. Moreover, with dirt and debris,
-              your mattress encounters sweat, spills and accidents. Our mattress
-              cleaning experts will clean and sanitise it with specialised
-              products and deodorizer methods that only a professional mattress
-              cleaning service can provide you at very affordable price.
+              Deep cleaning tasks such as washing windows, dusting blinds,
+              vacuuming upholstery, and cleaning hard-to-reach areas in the
+              property.
+              <br />
+              <br />
+              Spring cleaning doesn’t mean it can only be done in spring season.
+              But, we have to do a deep clean of our home after every few
+              months.
+              <br />
+              <br />
+              We at best one cleaners provide spring cleaning service on
+              once-off , regular basis, weekly or fortnightly. When you perform
+              seasonal cleaning by ourselves , you have to face lots of dust and
+              dirt everywhere. Your family members can also be affected by the
+              dust and dirt. We also need cleaning after some occasions or up
+              coming events like a birthday, a family diner, a holiday or some
+              special event, in these times our best spring cleaners will come
+              to you.
               <br />
               <br />
             </span>
@@ -154,7 +161,6 @@ const Spring = () => {
 
           <img src={teamImg} className={styles.ourStoryImg} alt="" />
         </div>
-        <Upper_Footer />
       </div>
     </>
   );

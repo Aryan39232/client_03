@@ -1,23 +1,23 @@
-import styles from "./testimonials.module.css"
-import { TestimonialCard, Navbar } from "../../Components"
-import coverPic from "../../Assets/Images/Testimonials/cover.jpg"
-import Upper_Footer from "../../Components/Upper_Footer/Upper_Footer"
+import styles from "./testimonials.module.css";
+import { TestimonialCard, Navbar } from "../../Components";
+import coverPic from "../../Assets/Images/Testimonials/cover.jpg";
+import Upper_Footer from "../../Components/Upper_Footer/Upper_Footer";
 
 function Testimonials() {
   return (
     <>
-      <Navbar />
-
       <div className={styles.testiWrapper}>
-        <div className={styles.testiHeader} style={{ backgroundImage: `url(${coverPic})` }}>
+        <div
+          className={styles.testiHeader}
+          style={{ backgroundImage: `url(${coverPic})` }}
+        >
           <span className={styles.heading}> TESTIMONIALS </span>
           <span className={styles.subHead}> What Our Clients Say </span>
         </div>
         <TestimonialCard />
       </div>
-      <Upper_Footer/>
     </>
-  )
+  );
 }
 
-export default Testimonials
+export default Testimonials;

@@ -9,7 +9,6 @@ import Upper_Footer from "../../Components/Upper_Footer/Upper_Footer";
 const Professional_Mettress = () => {
   return (
     <>
-      <Navbar />
       <div className={styles.wrapper}>
         <div
           className={styles.heading}
@@ -154,7 +153,6 @@ const Professional_Mettress = () => {
 
           <img src={teamImg} className={styles.ourStoryImg} alt="" />
         </div>
-        <Upper_Footer />
       </div>
     </>
   );

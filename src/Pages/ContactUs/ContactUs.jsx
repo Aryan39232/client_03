@@ -1,22 +1,24 @@
-import styles from "./ContactUs.module.css"
-import { Navbar } from "../../Components"
-import coverPic from "../../Assets/Images/Contact/cover.jpg"
-import { FaTwitter, FaInstagram, FaFacebook} from 'react-icons/fa';
+import styles from "./ContactUs.module.css";
+import { Navbar } from "../../Components";
+import coverPic from "../../Assets/Images/Contact/cover.jpg";
+import { FaTwitter, FaInstagram, FaFacebook } from "react-icons/fa";
 import Upper_Footer from "../../Components/Upper_Footer/Upper_Footer";
-
 
 function ContactUs() {
   return (
     <>
-      <Navbar />
       <div className={styles.contact_us}>
-
         {/* HEAD */}
-        <div className={styles.contact_header} style={{ backgroundImage: `url(${coverPic})` }}> CONTACT US </div>
+        <div
+          className={styles.contact_header}
+          style={{ backgroundImage: `url(${coverPic})` }}
+        >
+          {" "}
+          CONTACT US{" "}
+        </div>
 
         {/* CONTACT INFORMATION */}
         <div className={styles.contact_info}>
-
           <div className={styles.info_section}>
             <span className={styles.contactName}>Email</span>
             <span className={styles.contactDetail}>mehul@gmail.com</span>
@@ -38,9 +40,23 @@ function ContactUs() {
           <div className={styles.info_section}>
             <span className={styles.contactName}>Social</span>
             <span className={styles.contactDetail}>
-              <p> <a href="https://www.x.com/" target="black"><FaTwitter size={20} /></a> </p>
-              <p> <a href="https://www.instagram.com/" target="black"><FaInstagram size={20} /></a> </p>
-              <p><a href="https://www.fb.com/" target="black"><FaFacebook size={20} /></a>  </p>
+              <p>
+                {" "}
+                <a href="https://www.x.com/" target="black">
+                  <FaTwitter size={20} />
+                </a>{" "}
+              </p>
+              <p>
+                {" "}
+                <a href="https://www.instagram.com/" target="black">
+                  <FaInstagram size={20} />
+                </a>{" "}
+              </p>
+              <p>
+                <a href="https://www.fb.com/" target="black">
+                  <FaFacebook size={20} />
+                </a>{" "}
+              </p>
             </span>
           </div>
         </div>
@@ -73,31 +89,50 @@ function ContactUs() {
 
             <div className={styles.formField}>
               <div className={styles.label}>Full Name</div>
-              <input className={styles.formInput} type="text" id="fullName" name="fullName" />
+              <input
+                className={styles.formInput}
+                type="text"
+                id="fullName"
+                name="fullName"
+              />
             </div>
 
             <div className={styles.formField}>
               <div className={styles.label}>Email</div>
-              <input className={styles.formInput} type="email" id="email" name="email" />
+              <input
+                className={styles.formInput}
+                type="email"
+                id="email"
+                name="email"
+              />
             </div>
 
             <div className={styles.formField}>
               <div className={styles.label}>Phone</div>
-              <input className={styles.formInput} type="tel" id="phone" name="phone" />
+              <input
+                className={styles.formInput}
+                type="tel"
+                id="phone"
+                name="phone"
+              />
             </div>
 
             <div className={styles.formField}>
               <div className={styles.label}> Job Description </div>
-              <textarea className={styles.formInput} id="jobDescription" name="jobDescription" rows="4" />
+              <textarea
+                className={styles.formInput}
+                id="jobDescription"
+                name="jobDescription"
+                rows="4"
+              />
             </div>
 
             <div className={styles.submitBtn}>Submit</div>
           </div>
         </div>
       </div>
-        <Upper_Footer/>
     </>
   );
-};
+}
 
 export default ContactUs;
