@@ -484,3 +484,7 @@
   right: 0;
   transform: translateY(-50%);
 }
+
+/* media queries for tablets  */
+@media screen and (min-width: 450px) and (max-width: 1024px) {
+}
