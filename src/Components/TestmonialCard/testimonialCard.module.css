@@ -1,0 +1,23 @@
+.slideWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  background-color: #dbffe0;
+  padding: 100px;
+  margin: 50px 100px 100px 100px;
+  border-radius: 10px;
+}
+
+.slideHeading {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 450px) {
+  .slideWrapper {
+    padding: 30px;
+    margin: 45px;
+    margin: 45px;
+  }
+}

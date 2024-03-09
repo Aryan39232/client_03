@@ -1,0 +1,112 @@
+.heading {
+  height: 300px;
+  background-size: cover;
+  background-color: rgb(134, 134, 134);
+  background-blend-mode: multiply;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 40px;
+  font-weight: 500;
+  color: white;
+  background-position: center -500px;
+}
+
+/* Who is Best1 */
+
+.about_Service {
+  padding: 100px;
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutImg {
+  width: 35rem;
+  border-radius: 5px;
+}
+
+.about_text_content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.aboutHead {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.aboutDesc {
+  font-size: 16px;
+  text-align: justify;
+}
+
+@media screen and (max-width: 450px) {
+  .about_Service {
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    padding: 50px;
+  }
+
+  .aboutHead {
+    text-align: center;
+  }
+  
+  .aboutImg {
+    width: 20rem;
+  }
+}
+
+/* Our Story */
+
+.ourStoryWrapper {
+  background-color: #dbffe0;
+  padding: 100px 200px 100px 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.ourStoryText {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.ourStoryHead {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.ourStoryDesc {
+  font-size: 15px;
+  text-align: justify;
+}
+
+.ourStoryImg {
+  width: 40rem;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 450px) {
+  .ourStoryWrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    padding: 50px;
+  }
+
+  .ourStoryHead {
+    text-align: center;
+  }
+  
+  .ourStoryImg {
+    width: 20rem;
+  }
+}

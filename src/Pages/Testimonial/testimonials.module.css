@@ -1,0 +1,27 @@
+.testiWrapper {
+  padding-bottom: 50px;
+}
+
+.testiHeader {
+  height: 300px;
+  background-size: cover;
+  background-color: rgb(134, 134, 134);
+  background-blend-mode: multiply;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-position: center;
+}
+
+.heading {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.subHead {
+  font-size: 15px;
+  color: rgb(169, 169, 169);
+}

@@ -1,0 +1,12 @@
+export { default as About } from "./about/About";
+export { default as Home } from "./Home/Home";
+export { default as ContactUs } from "./ContactUs/ContactUs";
+export { default as Testimonials } from "./Testimonial/Testimonials";
+export { default as Services } from "../Components/Services/Services";
+export { default as Bbq } from "./Services_page/Bbq";
+export { default as Office } from "./Services_page/Office";
+export { default as Professional_Mettress } from "./Services_page/Professional_Mettress";
+export { default as Spring } from "./Services_page/Spring";
+export { default as Home_clean } from "./Services_page/Home_clean";
+export { default as Gardening } from "./Services_page/Gardening";
+export { default as Carpet } from "./Services_page/Carpet";
