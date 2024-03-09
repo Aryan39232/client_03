@@ -21,7 +21,6 @@ function Home() {
   const navigate = useNavigate();
   return (
     <>
-      <Navbar />
       <div className={styles.wrapper}>
         {/* Landing cover */}
 
@@ -60,6 +59,7 @@ function Home() {
         </div>
 
         {/* LIST OF SERVICES */}
+        <div className={styles.servicesHead}> Our Services </div>
         <Services />
 
         {/* SERVICES DESCRIPTION */}
@@ -206,17 +206,6 @@ function Home() {
         </div>
 
         {/* Founder's Message */}
-        <Upper_Footer />
-        {/* <div className={styles.quoteCoverPic} style={{ backgroundImage: `url(${contactCoverPic})` }}>
-          <div className={styles.quoteCoverContent}>
-            <span className={styles.quoteCoverText}>
-              “Our mission is serving our clients. Everyone who works with us is our client. 
-              So essentially our mission is our client's mission” 
-            </span>
-            <span className={styles.quoteCoverDesc}> Mehul - Director, Best1 Bond Cleaning </span>
-            <div className={styles.quoteCoverBtn}> CONTACT US </div>
-          </div>
-        </div> */}
       </div>
     </>
   );

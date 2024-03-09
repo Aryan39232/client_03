@@ -9,7 +9,6 @@ import Upper_Footer from "../../Components/Upper_Footer/Upper_Footer";
 const Office = () => {
   return (
     <>
-      <Navbar />
       <div className={styles.wrapper}>
         <div
           className={styles.heading}
@@ -169,7 +168,6 @@ const Office = () => {
 
           <img src={teamImg} className={styles.ourStoryImg} alt="" />
         </div>
-        <Upper_Footer />
       </div>
     </>
   );

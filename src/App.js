@@ -12,13 +12,15 @@ import {
   Gardening,
   Carpet,
 } from "./Pages";
-import { Footer } from "./Components";
+import { Footer, Navbar } from "./Components";
 import Servicess from "./Pages/Services_page/Servicess";
+import Upper_Footer from "./Components/Upper_Footer/Upper_Footer";
 
 function App() {
   return (
     <>
       <Router>
+        <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -36,6 +38,7 @@ function App() {
           <Route paht="/Gardening-services" element={<Gardening />} />
           <Route paht="/Carpet-services" element={<Carpet />} />
         </Routes>
+        <Upper_Footer />
         <Footer />
       </Router>
     </>

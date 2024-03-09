@@ -17,6 +17,12 @@
   width: 80%;
 }
 
+.servicesHead {
+  width: fit-content;
+  margin: 40px;
+  font-size: 30px;
+  font-weight: 500;
+}
 .CoverText {
   font-size: 40px;
   font-weight: 500;
@@ -113,7 +119,7 @@
   .leftHead {
     text-align: center;
   }
-  
+
   .leftDesc {
     text-align: justify;
   }
@@ -216,24 +222,23 @@
   .priceCardDesc {
     font-size: 15px;
   }
-  
+
   .priceCardTitle {
     font-size: 20px;
     font-weight: 600;
   }
-  
+
   .priceSectionHead {
     font-size: 30px;
     font-weight: 600;
     text-align: center;
   }
-  
+
   .priceSectionDesc {
     font-size: 15px;
     text-align: justify;
   }
 }
-
 
 /* BOOK SECTION */
 .bookSectionWrapper {
@@ -244,7 +249,6 @@
   justify-content: center;
   align-items: center;
 }
-
 
 .bookSectionHead {
   font-size: 30px;
@@ -327,7 +331,6 @@
   text-align: center;
 }
 
-
 @media screen and (max-width: 450px) {
   .featuresWrapper {
     flex-direction: column;
@@ -353,7 +356,6 @@
     text-align: center;
   }
 }
-
 
 /* QUOTE COVER SECTION */
 
@@ -423,9 +425,9 @@
 }
 
 .CallUS {
-  display: flex; 
+  display: flex;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
   border: 1px solid #2a6231;
   border-radius: 5px;
   color: #2a6231;
@@ -433,13 +435,12 @@
   width: fit-content;
   transition: 0.3s ease-in-out all;
   margin-left: 15px;
-  position: absolute; 
-  right: 10px; 
+  position: absolute;
+  right: 10px;
   transform: translateY(-50%);
   width: 150px;
   background-color: rgb(0, 255, 157);
   margin-bottom: auto;
-
 
   &:hover {
     cursor: pointer;
@@ -447,10 +448,10 @@
     background-color: #2a6231;
   }
 }
-.GETQUOTE{
-  display: flex; 
+.GETQUOTE {
+  display: flex;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
   border: 1px solid #2a6231;
   border-radius: 5px;
   color: #2a6231;
@@ -459,9 +460,9 @@
   width: fit-content;
   transition: 0.3s ease-in-out all;
   margin-left: 15px;
-  position: absolute; 
+  position: absolute;
   width: 150px;
-  right: 200px; 
+  right: 200px;
   transform: translateY(-50%);
   margin-top: auto;
 
@@ -472,7 +473,7 @@
   }
 }
 
-.RightAlignedContent{
+.RightAlignedContent {
   display: flex; /* Use flexbox for layout */
   justify-content: flex-end;
   position: fixed;

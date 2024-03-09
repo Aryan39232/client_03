@@ -18,7 +18,6 @@ function ServiceCard({ serviceName, imgURL, Icon, link }) {
 function Services() {
   return (
     <div className={styles.wrapper}>
-      <div className={styles.servicesHead}> Our Services </div>
       <div className={styles.container}>
         {servicesData.map((service) => {
           return (

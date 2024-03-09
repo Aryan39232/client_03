@@ -9,7 +9,6 @@ import Upper_Footer from "../../Components/Upper_Footer/Upper_Footer";
 const Gardening = () => {
   return (
     <>
-      <Navbar />
       <div className={styles.wrapper}>
         <div
           className={styles.heading}
@@ -154,7 +153,6 @@ const Gardening = () => {
 
           <img src={teamImg} className={styles.ourStoryImg} alt="" />
         </div>
-        <Upper_Footer />
       </div>
     </>
   );
