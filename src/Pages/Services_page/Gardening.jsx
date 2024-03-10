@@ -12,8 +12,9 @@ const Gardening = () => {
           style={{ backgroundImage: `url(${aboutCoverImg})` }}
         >
           {" "}
-          Gardening{" "}
+          Gardening & Lawn Mowing Services{" "}
         </div>
+
         <div className={styles.ourStoryWrapper}>
           <div className={styles.ourStoryText}>
             <span className={styles.ourStoryHead}>
@@ -22,36 +23,19 @@ const Gardening = () => {
             </span>
 
             <span className={styles.ourStoryDesc}>
-              If you have ever tried to change mattress sheets or changed over
-              your mattress, you will better understand the effort and cost
-              involved in removing and replacing the one you have. To reduce the
-              time and spend more time with your loved ones , heavy lifting and
-              expense, you can simply renew your mattress with professional
-              mattress cleaning.
+              Your trusted partner for garden maintenance and lawn mowing
+              services. With our expertise and dedication , we ensure that your
+              outdoor spaces thrive throught the seasons. Unlock the Beauty of
+              Your Outdoor Space with Top-Quality Gardening Services in
+              Australias
               <br />
               <br />
-              Professional mattress cleaning process will not only cost you less
-              then a new one but it will look better than new one mattress.
-              Mattress cleaning is a crucial step in prolonging the life of your
-              mattress to ensure it goes the long distance.
+              At Best 1 Cleaners , we can help you with all your garden
+              maintenance needs.
               <br />
               <br />
-              Professional mattress cleaning is very important for your health
-              and for the quality of your sleep. Moreover, with dirt and debris,
-              your mattress encounters sweat, spills and accidents. Our mattress
-              cleaning experts will clean and sanitise it with specialised
-              products and deodorizer methods that only a professional mattress
-              cleaning service can provide you at very affordable price.
-              <br />
-              <br />
-              Professional mattress cleaning is very important for your health
-              and for the quality of your sleep. Moreover, with dirt and debris,
-              your mattress encounters sweat, spills and accidents. Our mattress
-              cleaning experts will clean and sanitise it with specialised
-              products and deodorizer methods that only a professional mattress
-              cleaning service can provide you at very affordable price.
-              <br />
-              <br />
+              We offer customized garden maintenance service packages,
+              fortnightly, weekly or also once-off garden maintenance package.
             </span>
           </div>
 
@@ -62,90 +46,173 @@ const Gardening = () => {
           <div className={styles.about_text_content}>
             <span className={styles.aboutHead}>
               {" "}
-              What shoud I need to write
+              Our Gardening & Lawn Mowing Services
             </span>
 
             <span className={styles.aboutDesc}>
-              Optima mattress cleaning services are performed utilising the
-              highly effective hot water extraction method. It is suitable for
-              both synthetic and mixed fibre materials for superior cleans which
-              do not compromise the fabric. Our technicians will assess and
-              treat any stubborn stains or soilage. These areas will be treated
-              prior to cleaning before proceeding with the most suitable method
-              of cleaning. We at BEST 1 Cleaners serves reasonably, efficiently,
-              and we are feeling proud about what we do. Our services for
-              professional mattress cleaning will provide a premium result with
-              affordable prices for tenants sand the homeowners. Let us clean
-              your mattress and left it allergen free !
+              <b>1. Lawn mowing </b> :- Maintaining a healthy and lush lawn
+              requires regular mowing and our expert team is equipped with the
+              latest tools and techniques to ensure your grass stays vibrant and
+              well- manicured. Our lawn mowing service includes :-
               <br />
               <br />
+              <ul>
+                <li>• Service Precise mowing to the desired height.</li>
+                <li>
+                  • Edging along sidewalks, driveways, and flower beds for a
+                  clean finish.
+                </li>
+                <li>
+                  • Removal of grass clippings and debris from walkways and
+                  hardscapes.
+                </li>
+              </ul>
+            </span>
+            <span className={styles.aboutDesc}>
+              <b>2. Garden maintenance </b> :- A beautiful garden requires
+              consistent care and attention to thrive. Our maintenance services
+              are tailored to meet the unique needs of your landscape and may
+              include :
+              <br />
+              <br />
+              <ul>
+                <li>
+                  • Pruning and shaping of shrubs and bushes to promote healthy
+                  growth.
+                </li>
+                <li>
+                  • Weed control to prevent unwanted vegetation from competing
+                  with your plants,
+                </li>
+                <li>
+                  • Mulching to retain moisture, suppress weeds, and improve
+                  soil health.
+                </li>
+              </ul>
+            </span>
+
+            <span className={styles.aboutDesc}>
+              <b>4. Seasonal Cleanups</b> :- As the seasons change, so do the
+              needs of your outdoor space. Our seasonal cleanup services are
+              designed to prepare your lawn and garden for months ahead and may
+              include:
+              <br />
+              <br />
+              <ul>
+                <li>
+                  • Leaf removal to prevent buildup and protect your grass from
+                  suffocation.
+                </li>
+                <li>
+                  • Aeration and overseeding to promote healthy root growth and
+                  fill in bare patches.
+                </li>
+                <li>
+                  • Winterization to safeguard your plants and landscaping
+                  features from harsh weather conditions
+                </li>
+              </ul>
+            </span>
+            <span className={styles.aboutDesc}>
+              <b>3. Hedge Trimming </b> :- Well trimmed hedges not only enhance
+              the aesthetic appeal of your property but also contribute to its
+              overall health and vitality. Our hedge trimming service includes :
+              <br />
+              <br />
+              <ul>
+                <li>
+                  • Precision trimming to maintain the shape and structure of
+                  your hedges.
+                </li>
+                <li>
+                  • Removal of dead or overgrown branches to promote new growth.
+                </li>
+                <li>
+                  • Cleanup and disposal of clipping to leave your outdoor space
+                  looking tidy and pristine.
+                </li>
+              </ul>
             </span>
           </div>
 
           <img src={randomImg} className={styles.aboutImg} alt="" />
         </div>
+
         <div className={styles.ourStoryWrapper}>
           <div className={styles.ourStoryText}>
             <span className={styles.ourStoryHead}>
               {" "}
-              The BEST 1 Cleaners Mattress Cleaning Process{" "}
+              Our Methods for Perfect Gardening & Lawn Mowing Services{" "}
             </span>
 
+            <b>
+              Here’s an outline of the typical process or methods employed by
+              our specialists for garden maintenance and lawn mowing services{" "}
+            </b>
             <span className={styles.ourStoryDesc}>
-              Firstly , the cleaning process begins with a thorough inspection
-              of a mattress. Specialists look for stains, odors, signs of wear
-              and tear, any specific areas that may require targeted treatment.
-              Then, by using a high powered vacuum the entire surface of the
-              mattress. This step removes loose particles such as dust, hair,
-              and pet dander.
+              <b> Initial consultation </b>: The process usually begins with an
+              initial consultation where our best 1 cleaners customer support
+              teams will be in contact with you through phone call and after
+              they will assess you with the services you need and guide you
+              accordingly that. If needed , our garden maintenance specialist
+              will come to you on the day of the Job and also explain you the
+              process they will do with your needs.
               <br />
               <br />
-              In the next step , if there is any visible stains on the mattress
-              then it will be treated by our best 1 cleaners appropriate
-              cleaning solutions. Our professional mattress cleaning specialists
-              have a range of products at their disposal and will choose one
-              based on the type of the stain (e.g. blood, urine, sweat ) and
-              type of the mattress to ensure effective removal without damaging
-              the mattress fabric.
+              <b> Lawn Mowing </b>: Lawn mowing is a fundamental aspect of
+              garden maintenance and typically involves cutting the grass to a
+              uniform height.
+              <br />
+              • Our specialists will use professional-grade lawn mowers equipped
+              with sharp blades to ensure clean cuts and minimize stress on the
+              grass.
+              <br />
+              • The Edging along sidewalks, driveways, and flower beds is often
+              included to give the lawn a polished appearance
               <br />
               <br />
-              The main phase of mattress cleaning involves many different
-              methods such as
+              <b> Garden maintenance </b>: Garden maintenance encompasses a
+              range of task aimed at preserving the health and beauty of the
+              plants and landscaping features.
+              <br />
+              • This may include pruning shrubs and bushes to promote healthy
+              growth, removing weds to prevent competition for nutrients, and
+              applying mulch to retain moisture and weed growth.
+              <br />
+              • We will also provide seasonal planting and flowered maintenance
+              to keep the garden looking vibrant rant and colorful throughout
+              the year.
               <br />
               <br />
-              Hot water extraction ( steam cleaning ) : in this method we will
-              inject hot water and cleaning solution into the mattress fabric
-              and then vacuums it out. It is effective for deep cleaning and
-              killing bacteria , viruses and dust mites.
+              <b> Hedge Trimming </b>: Hedge trimming is another essential
+              aspect of garden maintenance, especially for properties with
+              hedgerows or decorative bushes.
+              <br />
+              • Our specialist will use precision trimming tools to shape and
+              maintain the desired appearance of the hedges, ensuring they
+              remain neat and well – manicured.
+              <br />
+              • Regular hedge trimming promotes healthy growth and prevents
+              overgrowth, which can detract from the overall aesthetis of the
+              landscape.
               <br />
               <br />
-              Dry cleaning : some mattresses may require a dry cleaning method,
-              which uses minimal moisture and specific chemicals to clean
-              without wetting the mattress.
+              <b> Seasonal Cleanups </b>: Seasonal cleanups are performed to
+              prepare the garden and lawn for changes in weather and
+              environmental conditions.
               <br />
-              <br />
-              In the 5th stage , for better and fresh feeling , our mattress
-              cleaning specialists will apply deodorizer to the mattress to
-              remove any lingering odors , leaving it smelling fresh.
-              <br />
-              <br />
-              Final stage is very crucial as it is called drying stage . we must
-              insure that mattress is completely dry to prevent mold and mildew
-              growth. Professionals may use air movers or fans to speed up the
-              drying process. In the case of dry cleaning methods , drying time
-              is minimal.
-              <br />
-              <br />
-              Finally , our specialist will also provide advice on how to
-              maintain your mattress cleanliness and extend the time between
-              professional cleanings. ‘’ Choosing a professional mattress
-              cleaning service can significantly improve your sleeping
-              environment’s health and hygiene, contributing to better sleep
-              quality and overall well being ‘’. The BEST 1 Cleaners mattress
-              cleaning experts are well known for their expertise in mattress
-              cleaning service for delivering superior cleaning results and
-              attention to detail cleaning.
+              • This may involve tasks such as leaf removal in the fall,
+              aeration and over seeding in the spring, and winterization to
+              protect plants from frost and cold temperatures.
+              <br />• Seasonal cleanups help maintain the health and vitality of
+              the outdoor space year- around.
             </span>
+            <b>
+              By following these methods and process by our best 1 cleaners can
+              provide comprehensive garden maintenance and lawn mowing services
+              that meet the needs and preferences of their clients while
+              preserving the beauty and health of outdoor spaces.{" "}
+            </b>
           </div>
 
           <img src={teamImg} className={styles.ourStoryImg} alt="" />

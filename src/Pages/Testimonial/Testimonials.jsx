@@ -1,7 +1,6 @@
 import styles from "./testimonials.module.css";
-import { TestimonialCard, Navbar } from "../../Components";
+import { TestimonialCard } from "../../Components";
 import coverPic from "../../Assets/Images/Testimonials/cover.jpg";
-import Upper_Footer from "../../Components/Upper_Footer/Upper_Footer";
 
 function Testimonials() {
   return (

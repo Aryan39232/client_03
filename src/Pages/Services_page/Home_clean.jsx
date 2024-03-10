@@ -15,43 +15,56 @@ const Home_clean = () => {
           Home Cleaning{" "}
         </div>
         <div className={styles.ourStoryWrapper}>
+          <span className={styles.ourStoryHead}>
+            {" "}
+            Home cleaning is the process of tidying, organizing, and sanitizing
+            living spaces to maintain a clean and healthy environment for
+            tenants and family members. It involves various tasks aimed at
+            removing dirt, dust, grime, and germs from surfaces, floors,
+            furniture, and other areas of the home.{" "}
+          </span>
           <div className={styles.ourStoryText}>
             <span className={styles.ourStoryHead}>
-              {" "}
-              Rest Easy, Sleep Healthy: Sparkling Clean Mattresses, Naturally!{" "}
+              Importance of home cleaning :-
             </span>
 
             <span className={styles.ourStoryDesc}>
-              If you have ever tried to change mattress sheets or changed over
-              your mattress, you will better understand the effort and cost
-              involved in removing and replacing the one you have. To reduce the
-              time and spend more time with your loved ones , heavy lifting and
-              expense, you can simply renew your mattress with professional
-              mattress cleaning.
+              • Regular home cleaning helps prevent the build up of allergens,
+              bacteria, and other harmful pathogens that can contribute to
+              respiratory problems, allergies, and illnesses. A clean home
+              promotes better health and well-being for everyone living in it.
               <br />
               <br />
-              Professional mattress cleaning process will not only cost you less
-              then a new one but it will look better than new one mattress.
-              Mattress cleaning is a crucial step in prolonging the life of your
-              mattress to ensure it goes the long distance.
+              A tidy and organized home provides a more comfortable and relaxing
+              environment for occupants to unwind and recharge after a long day.
+              Clutter-free spaces can also help reduce stress and promote mental
+              clarity and focus. tidy and organized home provides a more
+              comfortable and relaxing environment for occupants to unwind and
+              recharge after a long day. Keeping your home clean and
+              well-maintained instills a sense of pride and satisfaction home
+              ownership.
               <br />
               <br />
-              Professional mattress cleaning is very important for your health
-              and for the quality of your sleep. Moreover, with dirt and debris,
-              your mattress encounters sweat, spills and accidents. Our mattress
-              cleaning experts will clean and sanitise it with specialised
-              products and deodorizer methods that only a professional mattress
-              cleaning service can provide you at very affordable price.
+              A clean home reflects attention to detail, care for the living
+              environment, and pride in one’s surroundings. We at Best 1
+              Cleaners take pride to clean your homes with green products to
+              keep you and your family member safe and healthy. You can choose
+              the cleaner you want and if you book us for regular cleaning then
+              cleaner who come to you sat first time will stay for the end, and
+              we will not lock you into the regular contract or weekly .
               <br />
               <br />
-              Professional mattress cleaning is very important for your health
-              and for the quality of your sleep. Moreover, with dirt and debris,
-              your mattress encounters sweat, spills and accidents. Our mattress
-              cleaning experts will clean and sanitise it with specialised
-              products and deodorizer methods that only a professional mattress
-              cleaning service can provide you at very affordable price.
+              • In this busy era , no one has time to spend it on cleaning but
+              cleaning is very essential as without cleanliness we will get sick
+              . We have family to spend our valuable time with them. So, it’s
+              difficult to find time and energy for something extra work.
               <br />
               <br />
+              <b>
+                With the best one cleaners , all of your cleaning needs will be
+                not only completed but also satisfied with green environment
+                around your homes.{" "}
+              </b>
             </span>
           </div>
 
@@ -62,23 +75,26 @@ const Home_clean = () => {
           <div className={styles.about_text_content}>
             <span className={styles.aboutHead}>
               {" "}
-              What shoud I need to write
+              Our Best 1 Cleaners Expertise in Home Cleaning
             </span>
 
             <span className={styles.aboutDesc}>
-              Optima mattress cleaning services are performed utilising the
-              highly effective hot water extraction method. It is suitable for
-              both synthetic and mixed fibre materials for superior cleans which
-              do not compromise the fabric. Our technicians will assess and
-              treat any stubborn stains or soilage. These areas will be treated
-              prior to cleaning before proceeding with the most suitable method
-              of cleaning. We at BEST 1 Cleaners serves reasonably, efficiently,
-              and we are feeling proud about what we do. Our services for
-              professional mattress cleaning will provide a premium result with
-              affordable prices for tenants sand the homeowners. Let us clean
-              your mattress and left it allergen free !
+              Here at Best 1 Cleaning we utilise the modern and very innovative
+              cleaning methods and cleaning equipments to get far better
+              results. Our cleaning products are 100% harmful chemical free, we
+              use only green product from the best cleaning chemical supplies
+              like AGAR chemicals and other hygiene products.
               <br />
               <br />
+              We can also offer daily , weekly or fortnightly cleaning package
+              and whenever you want to cancel it just need one call and
+              conversation to cancel the package.
+              <br />
+              <br />
+              By being a your local cleaning company in the Brisbane, Gold
+              coast, Sunshine coast, Melbourne, Sydney, Perth, Adelaide for so
+              many years, Best 1 Cleaners has become the first priority of
+              homeowners and businessowners for their cleaning needs.
             </span>
           </div>
 
@@ -86,18 +102,12 @@ const Home_clean = () => {
         </div>
         <div className={styles.ourStoryWrapper}>
           <div className={styles.ourStoryText}>
-            <span className={styles.ourStoryHead}>
-              {" "}
-              The BEST 1 Cleaners Mattress Cleaning Process{" "}
-            </span>
+            <span className={styles.ourStoryHead}> With Our Teams </span>
 
             <span className={styles.ourStoryDesc}>
-              Firstly , the cleaning process begins with a thorough inspection
-              of a mattress. Specialists look for stains, odors, signs of wear
-              and tear, any specific areas that may require targeted treatment.
-              Then, by using a high powered vacuum the entire surface of the
-              mattress. This step removes loose particles such as dust, hair,
-              and pet dander.
+              • All of our cleaners are fully trained and certified to provide
+              cleaning services across Australia. Here at Best 1 Cleaners you
+              will never be disappointed with our services.
               <br />
               <br />
               In the next step , if there is any visible stains on the mattress
@@ -109,46 +119,27 @@ const Home_clean = () => {
               the mattress fabric.
               <br />
               <br />
-              The main phase of mattress cleaning involves many different
-              methods such as
+              At Best 1 Cleaners , customer satisfaction is not just a goal;
+              it’s our promise to you . We go above and beyond to ensure that
+              every aspect of our service is designed with your satisfaction in
+              mind.
               <br />
               <br />
-              Hot water extraction ( steam cleaning ) : in this method we will
-              inject hot water and cleaning solution into the mattress fabric
-              and then vacuums it out. It is effective for deep cleaning and
-              killing bacteria , viruses and dust mites.
+              • From the quality of our work to the professionalism of our team,
+              we are committed to earning your trust and building a long-lasting
+              relationship based on mutual respect and satisfaction.
               <br />
               <br />
-              Dry cleaning : some mattresses may require a dry cleaning method,
-              which uses minimal moisture and specific chemicals to clean
-              without wetting the mattress.
-              <br />
-              <br />
-              In the 5th stage , for better and fresh feeling , our mattress
-              cleaning specialists will apply deodorizer to the mattress to
-              remove any lingering odors , leaving it smelling fresh.
-              <br />
-              <br />
-              Final stage is very crucial as it is called drying stage . we must
-              insure that mattress is completely dry to prevent mold and mildew
-              growth. Professionals may use air movers or fans to speed up the
-              drying process. In the case of dry cleaning methods , drying time
-              is minimal.
-              <br />
-              <br />
-              Finally , our specialist will also provide advice on how to
-              maintain your mattress cleanliness and extend the time between
-              professional cleanings. ‘’ Choosing a professional mattress
-              cleaning service can significantly improve your sleeping
-              environment’s health and hygiene, contributing to better sleep
-              quality and overall well being ‘’. The BEST 1 Cleaners mattress
-              cleaning experts are well known for their expertise in mattress
-              cleaning service for delivering superior cleaning results and
-              attention to detail cleaning.
             </span>
           </div>
 
           <img src={teamImg} className={styles.ourStoryImg} alt="" />
+
+          <b>
+            Experience the difference of working with a cleaning company that
+            puts your needs first. Contact us today to discover how we can make
+            your space shine!
+          </b>
         </div>
       </div>
     </>
