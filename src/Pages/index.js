@@ -5,7 +5,7 @@ export { default as Testimonials } from "./Testimonial/Testimonials";
 export { default as Services } from "../Components/Services/Services";
 export { default as Bbq } from "./Services_page/Bbq";
 export { default as Office } from "./Services_page/Office";
-export { default as Professional_Mettress } from "./Services_page/Professional_Mettress";
+export { default as EndOfLease } from "./Services_page/EndOfLease";
 export { default as Spring } from "./Services_page/Spring";
 export { default as Home_clean } from "./Services_page/Home_clean";
 export { default as Gardening } from "./Services_page/Gardening";

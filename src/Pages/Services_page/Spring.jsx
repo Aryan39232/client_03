@@ -18,7 +18,7 @@ const Spring = () => {
           <div className={styles.ourStoryText}>
             <span className={styles.ourStoryHead}>
               {" "}
-              Rest Easy, Sleep Healthy: Sparkling Clean Mattresses, Naturally!{" "}
+              "Spring Sparkle: Transforming Spaces, One Clean at a Time."{" "}
             </span>
 
             <span className={styles.ourStoryDesc}>
@@ -70,7 +70,7 @@ const Spring = () => {
           <div className={styles.about_text_content}>
             <span className={styles.aboutHead}>
               {" "}
-              What shoud I need to write
+              Our Professional Spring Cleaning Methods
             </span>
 
             <span className={styles.aboutDesc}>
@@ -96,67 +96,65 @@ const Spring = () => {
           <div className={styles.ourStoryText}>
             <span className={styles.ourStoryHead}>
               {" "}
-              The BEST 1 Cleaners Mattress Cleaning Process{" "}
+              Our Professional Spring Cleaning Methods{" "}
             </span>
 
             <span className={styles.ourStoryDesc}>
-              Firstly , the cleaning process begins with a thorough inspection
-              of a mattress. Specialists look for stains, odors, signs of wear
-              and tear, any specific areas that may require targeted treatment.
-              Then, by using a high powered vacuum the entire surface of the
-              mattress. This step removes loose particles such as dust, hair,
-              and pet dander.
+              The Best 1 Cleaners offers top notch professional spring cleaning
+              services both for commercial and domestic properties! We make sure
+              to strictly follow your priorities and guidelines for the clean to
+              achieve full customer satisfaction and get back your property
+              looks like a new.
               <br />
               <br />
-              In the next step , if there is any visible stains on the mattress
-              then it will be treated by our best 1 cleaners appropriate
-              cleaning solutions. Our professional mattress cleaning specialists
-              have a range of products at their disposal and will choose one
-              based on the type of the stain (e.g. blood, urine, sweat ) and
-              type of the mattress to ensure effective removal without damaging
-              the mattress fabric.
+              We provide spring cleaning service on hourly base. It means we
+              will inform you our conversation on the size of the property ,
+              areas needs to be done on priority, and then we will inform you
+              that how much time it will take to our cleaners to complete the
+              professional spring cleaning and we will also inform you the cost
+              of the professional spring cleaning. One important and different
+              thing from other that if our cleaners complete the cleaning before
+              the time you booked then we will charge accordingly that.
               <br />
               <br />
-              The main phase of mattress cleaning involves many different
-              methods such as
-              <br />
-              <br />
-              Hot water extraction ( steam cleaning ) : in this method we will
-              inject hot water and cleaning solution into the mattress fabric
-              and then vacuums it out. It is effective for deep cleaning and
-              killing bacteria , viruses and dust mites.
-              <br />
-              <br />
-              Dry cleaning : some mattresses may require a dry cleaning method,
-              which uses minimal moisture and specific chemicals to clean
-              without wetting the mattress.
-              <br />
-              <br />
-              In the 5th stage , for better and fresh feeling , our mattress
-              cleaning specialists will apply deodorizer to the mattress to
-              remove any lingering odors , leaving it smelling fresh.
-              <br />
-              <br />
-              Final stage is very crucial as it is called drying stage . we must
-              insure that mattress is completely dry to prevent mold and mildew
-              growth. Professionals may use air movers or fans to speed up the
-              drying process. In the case of dry cleaning methods , drying time
-              is minimal.
-              <br />
-              <br />
-              Finally , our specialist will also provide advice on how to
-              maintain your mattress cleanliness and extend the time between
-              professional cleanings. ‘’ Choosing a professional mattress
-              cleaning service can significantly improve your sleeping
-              environment’s health and hygiene, contributing to better sleep
-              quality and overall well being ‘’. The BEST 1 Cleaners mattress
-              cleaning experts are well known for their expertise in mattress
-              cleaning service for delivering superior cleaning results and
-              attention to detail cleaning.
+              <ul>
+                <li>
+                   First of all our professional spring cleaners will assess
+                  the property to determine the size , cleaning needs and
+                  special areas that needs attention.
+                </li>
+                <li>
+                   They may consult with the client to understand their
+                  priorities and preference for the cleaning process.
+                  <li></li> Then , they will start with the dusting as dusting
+                  is performed systematically, starting from top to bottom, to
+                  prevent dust from settling o already cleaned surfaces.
+                  Specialists will use micro fibre cloths, duster, and vacuum
+                  attachments to effectively remove dust from furniture,
+                  shelves, baseboards, light fixtures and other surfaces.
+                  <li></li> Floor will be thoroughly vacuumed or swept to
+                  remove dirt , dust and debris. Our specialists will do deep
+                  cleaning of kitchens and bathrooms, including counterparts,
+                  sinks, appliances, cabinets and fixtures.
+                  <li></li> Appliances such as stoves, ovens, refrigerator,
+                  dishwashers and microwaves will be cleaned inside and outside
+                  to remove grease and food debris and stains. ( with little
+                  extra charge )<li></li> In the last stage , our experts will
+                  perform final touches to ensure that all areas are cleaned ,
+                  organized and visually appealing.
+                </li>
+              </ul>
             </span>
           </div>
 
           <img src={teamImg} className={styles.ourStoryImg} alt="" />
+
+          <b>
+            By following our Best 1 Cleaners this method , experts can deliver
+            comprehensive spring cleaning services that rejuvenate and enhance
+            the living or working environment, creating a clean, healthy, and
+            inviting space for your loved ones to enjoy.
+          </b>
         </div>
       </div>
     </>
