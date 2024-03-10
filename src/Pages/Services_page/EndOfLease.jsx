@@ -84,6 +84,7 @@ const EndOfLease = () => {
 
           <img src={randomImg} className={styles.aboutImg} alt="" />
         </div>
+
         <div className={styles.ourStoryWrapper}>
           <div className={styles.ourStoryText}>
             <span className={styles.ourStoryHead}>

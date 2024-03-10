@@ -1,6 +1,6 @@
 import styles from "./testimonials.module.css";
-import { TestimonialCard } from "../../Components";
 import coverPic from "../../Assets/Images/Testimonials/cover.jpg";
+import TestiMonials from "../../Components/TestmonialCard/TestiMonials";
 
 function Testimonials() {
   return (
@@ -13,7 +13,7 @@ function Testimonials() {
           <span className={styles.heading}> TESTIMONIALS </span>
           <span className={styles.subHead}> What Our Clients Say </span>
         </div>
-        <TestimonialCard />
+        <TestiMonials />
       </div>
     </>
   );
