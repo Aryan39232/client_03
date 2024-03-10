@@ -40,7 +40,9 @@ const Office = () => {
               ensure thoroughness, efficiency, and customer satisfaction.
               <br />
               <br />
-              ’’ Leave the Cleaning to us , Focus on Your Business Success !’’
+              <b>
+                ’’ Leave the Cleaning to us , Focus on Your Business Success !’’{" "}
+              </b>
               <br />
               <br />
             </span>
@@ -57,12 +59,6 @@ const Office = () => {
             </span>
 
             <span className={styles.aboutDesc}>
-              We clean every type of offices ,Whether your office has 20
-              employees or 2000, we have the best staff and resources to clean
-              offices of all shapes and sizes. We work on commitment , we never
-              waste time of our clients and we also never want that our clients
-              waste their time to manage their cleaning staff. Let Best 1
-              Cleaners take over the responsibility of your all cleaning needs.
               We never bind our existing customers or new one in a lengthy
               contract . We provide office cleaning services on a daily , weekly
               , fortnightly or once- off basis hire our office cleaning services
@@ -164,6 +160,14 @@ const Office = () => {
           </div>
 
           <img src={teamImg} className={styles.ourStoryImg} alt="" />
+          <b>
+            Our comprehensive range of cleaning services includes tile cleaning,
+            grout cleaning, upholstery cleaning, carpet cleaning, bond cleaning,
+            window cleaning and more. Whether you only need your office windows
+            cleaning or a combination of various office cleaning services, we
+            are happy to customise a cleaning solution. We pride ourselves for
+            offering high-quality cleaning solutions at competitive prices.
+          </b>
         </div>
       </div>
     </>

@@ -21,34 +21,16 @@ import sanitising from "../../Assets/Images/Services/cleaning1.jpg";
 
 const servicesData = [
   {
-    name: "Oven & BBQ Cleaning",
+    name: "End of Lease Cleaning",
     imgURL: imge,
-    logo: GiChickenOven,
-    link: "/bbq-services",
+    logo: FaDoorOpen,
+    link: "/EndOfLease",
   },
   {
-    name: "Professional Matress Cleaning",
-    imgURL: imge,
-    logo: TbArmchair,
-    link: "/mettress-services",
-  },
-  {
-    name: "Office Cleaning",
-    imgURL: office,
-    logo: HiOfficeBuilding,
-    link: "/office-services",
-  },
-  {
-    name: "Carpet & Rug Cleaning",
+    name: "Professional Carpet & upholstery cleaning",
     imgURL: imge,
     logo: GiBroom,
     link: "/Carpet-services",
-  },
-  {
-    name: "Spring Cleaning",
-    imgURL: imge,
-    logo: GiFlowers,
-    link: "/Spring-services",
   },
   {
     name: "Home Cleaning",
@@ -57,36 +39,58 @@ const servicesData = [
     link: "/Home-clean-services",
   },
   {
+    name: "Office Cleaning",
+    imgURL: office,
+    logo: HiOfficeBuilding,
+    link: "/office-services",
+  },
+  {
     name: "Gardening-services",
     imgURL: imge,
     logo: FaTools,
-    link: "/Gardening-services",
-  },
-
-  {
-    name: "Upholstery & Couch Cleaning",
-    imgURL: sofa,
-    logo: GiSofa,
-    link: "/office-mettress",
+    link: "/gardening-services",
   },
   {
-    name: "End of Lease Cleaning",
+    name: "Oven & BBQ Cleaning",
     imgURL: imge,
-    logo: FaDoorOpen,
-    link: "/office-mettress",
+    logo: GiChickenOven,
+    link: "/bbq-services",
   },
   {
-    name: "Window Cleaning",
+    name: "Spring Cleaning",
     imgURL: imge,
-    logo: GiWindow,
-    link: "/office-mettress",
+    logo: GiFlowers,
+    link: "/Spring-services",
   },
-  {
-    name: "Water Damage Restorage repair",
-    imgURL: sanitising,
-    logo: FaHouseFloodWaterCircleArrowRight,
-    link: "/office-mettress",
-  },
+  ///////////////
+  ///////////////
+  //////////////////////////////
+  //////////////////////////////
+  ///////////////
+  // {
+  //   name: "Professional Matress Cleaning",
+  //   imgURL: imge,
+  //   logo: TbArmchair,
+  //   link: "/mettress-services",
+  // },
+  // {
+  //   name: "Upholstery & Couch Cleaning",
+  //   imgURL: sofa,
+  //   logo: GiSofa,
+  //   link: "/office-mettress",
+  // },
+  // {
+  //   name: "Window Cleaning",
+  //   imgURL: imge,
+  //   logo: GiWindow,
+  //   link: "/office-mettress",
+  // },
+  // {
+  //   name: "Water Damage Restorage repair",
+  //   imgURL: sanitising,
+  //   logo: FaHouseFloodWaterCircleArrowRight,
+  //   link: "/office-mettress",
+  // },
   // {name: "Antiviral Sanitising & Disinfection", imgURL: sanitising, logo: FaVirusCovid},
 ];
 

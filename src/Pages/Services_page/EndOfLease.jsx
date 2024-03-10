@@ -3,7 +3,7 @@ import randomImg from "../../Assets/Images/About/random.jpg";
 import teamImg from "../../Assets/Images/About/team.jpg";
 import aboutCoverImg from "../../Assets/Images/About/cover.jpg";
 
-const Professional_Mettress = () => {
+const EndOfLease = () => {
   return (
     <>
       <div className={styles.wrapper}>
@@ -155,4 +155,4 @@ const Professional_Mettress = () => {
   );
 };
 
-export default Professional_Mettress;
+export default EndOfLease;

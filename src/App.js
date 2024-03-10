@@ -6,11 +6,11 @@ import {
   Testimonials,
   Bbq,
   Office,
-  Professional_Mettress,
   Spring,
   Home_clean,
-  Gardening,
   Carpet,
+  Gardening,
+  EndOfLease,
 } from "./Pages";
 import { Footer, Navbar } from "./Components";
 import Servicess from "./Pages/Services_page/Servicess";
@@ -29,13 +29,10 @@ function App() {
           <Route path="/services" element={<Servicess />} />
           <Route path="/bbq-services" element={<Bbq />} />
           <Route path="/office-services" element={<Office />} />
-          <Route
-            path="/mettress-services"
-            element={<Professional_Mettress />}
-          />
+          <Route path="/EndOfLease" element={<EndOfLease />} />
           <Route paht="/Spring-services" element={<Spring />} />
           <Route paht="/Home-clean-services" element={<Home_clean />} />
-          <Route paht="/Gardening-services" element={<Gardening />} />
+          <Route paht="/gardening-services" element={<Gardening />} />
           <Route paht="/Carpet-services" element={<Carpet />} />
         </Routes>
         <Upper_Footer />
