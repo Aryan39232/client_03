@@ -202,7 +202,9 @@ function Home() {
             </div>
           </div>
 
-          <div className={styles.bookNowBtn}>GET QUOTE</div>
+          <div className={styles.bookNowBtn} style={{ display: "none" }}>
+            GET QUOTE
+          </div>
         </div>
 
         {/* Founder's Message */}
