@@ -51,13 +51,14 @@
 @media screen and (max-width: 450px) {
   .CoverPic {
     height: 70vh;
-    background-size: auto 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
   }
 
   .coverContent {
     text-align: center;
-    gap: 40px;
+    gap: 10px;
   }
 }
 
@@ -414,8 +415,9 @@
 @media screen and (max-width: 450px) {
   .quoteCoverPic {
     height: 70vh;
-    background-size: auto 100%;
-    background-position: -570px center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 
   .quoteCoverContent {
@@ -433,22 +435,18 @@
 }
 
 .CallUS {
-  display: none;
+  display: flex;
   justify-content: center;
   align-items: center;
   border: 1px solid #2a6231;
   border-radius: 5px;
   color: #2a6231;
   padding: 10px;
-  width: fit-content;
-  transition: 0.3s ease-in-out all;
-  margin-left: 15px;
-  position: absolute;
-  right: 10px;
-  transform: translateY(-50%);
-  width: 150px;
   background-color: rgb(0, 255, 157);
-  margin-bottom: auto;
+  transition: 0.3s ease-in-out all;
+  /* width: 150px; */
+  padding: 0.5rem 3rem;
+  display: inline-flex;
 
   &:hover {
     cursor: pointer;
@@ -457,22 +455,15 @@
   }
 }
 .GETQUOTE {
-  display: none;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
   border: 1px solid #2a6231;
   border-radius: 5px;
   color: #2a6231;
-  padding: 10px;
   background-color: rgb(0, 255, 157);
-  width: fit-content;
   transition: 0.3s ease-in-out all;
-  margin-left: 15px;
-  position: absolute;
-  width: 150px;
-  right: 200px;
-  transform: translateY(-50%);
-  margin-top: auto;
+  /* width: 150px; */
+  padding: 0.5rem 3rem;
+  display: inline-flex;
 
   &:hover {
     cursor: pointer;
@@ -482,15 +473,26 @@
 }
 
 .RightAlignedContent {
-  display: flex; /* Use flexbox for layout */
+  display: flex;
+  transition: 400ms ease-in-out;
   justify-content: flex-end;
-  position: fixed;
+  gap: 1rem;
+  padding: 0.4rem;
 }
-.FixedRightContent {
+/* .FixedRightContent {
   position: fixed;
   top: 15%;
   right: 0;
   transform: translateY(-50%);
+} */
+.FixedRightContent {
+  position: sticky;
+  top: 0;
+}
+.Hidden {
+  transition: 400ms ease-in-out;
+  backdrop-filter: blur(10px);
+  padding: 0.5rem;
 }
 
 /* media queries for tablets  */
@@ -505,5 +507,22 @@
 
   .bookSectionWrapper {
     padding: 5rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .FixedRightContent {
+    /* display: none; */
+    /* bottom: 0;/ */
+    position: sticky;
+    border: 1px solid;
+  }
+  .featureCard {
+    min-height: 100px;
+  }
+  .GETQUOTE,
+  .CallUS {
+    padding: 0.3rem 1rem;
+    font-size: 1rem;
   }
 }
