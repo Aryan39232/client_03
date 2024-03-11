@@ -33,21 +33,22 @@
   align-items: center;
   list-style-type: none;
   margin: 10px;
+  gap: 2.5rem;
 }
 
-.nav_elements ul li:not(:last-child) {
+/* .nav_elements ul li:not(:last-child) {
   margin-right: 20px;
-}
+} */
 
 .nav_elements ul a {
   position: relative;
   color: #2a6231;
   font-size: 1rem;
   font-weight: 500;
-  line-height: 25px;
-  letter-spacing: -0.13px;
+  /* line-height: 25px; */
+  /* letter-spacing: -0.13px; */
   text-decoration: none;
-  margin-left: 2.5rem;
+  /* margin-left: 2.5rem; */
   transition: all 0.5s ease;
 }
 
@@ -92,11 +93,10 @@
   }
 }
 
-
 @media (max-width: 768px) {
-  .nav_elements ul li:not(:last-child) {
+  /* .nav_elements ul li:not(:last-child) {
     margin-right: 30px;
-  }
+  } */
   .CallUS {
     margin-left: 0px;
   }
@@ -114,6 +114,7 @@
     top: 60px;
     background-color: whitesmoke;
     width: 0px;
+    z-index: 1000;
     height: calc(100vh - 60px);
     transition: all 0.3s ease-in;
     overflow: hidden;
@@ -121,6 +122,7 @@
 
   .nav_elements.active {
     width: 270px;
+    height: 100vh;
   }
 
   .nav_elements ul {
@@ -131,5 +133,11 @@
   .nav_elements ul li {
     margin-right: unset;
     margin-top: 22px;
+  }
+}
+/* media queries for tablets  */
+@media screen and (min-width: 600px) and (max-width: 900px) {
+  .nav_elements ul {
+    gap: 1rem;
   }
 }

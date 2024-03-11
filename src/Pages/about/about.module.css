@@ -16,27 +16,32 @@
 /* Who is Best1 */
 
 .about_Service {
-  padding: 100px;
   display: flex;
-  gap: 100px;
+  gap: 4rem;
+  padding: 2rem;
   justify-content: center;
   align-items: center;
 }
 
 .aboutImg {
-  width: 35rem;
+  width: 100%;
+  object-fit: cover;
+  max-height: 300px;
   border-radius: 5px;
 }
 
 .about_text_content {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  padding: 2rem;
+  line-height: 1.5rem;
+  /* gap: 20px; */
 }
 
 .aboutHead {
   font-size: 25px;
   font-weight: 600;
+  margin-bottom: 1rem;
 }
 
 .aboutDesc {
@@ -49,7 +54,7 @@
     flex-direction: column;
     align-items: center;
     gap: 60px;
-    padding: 50px;
+    /* padding: 50px; */
   }
 
   .aboutHead {
@@ -57,7 +62,8 @@
   }
 
   .aboutImg {
-    width: 20rem;
+    width: 100%;
+    object-fit: cover;
   }
 }
 
@@ -65,10 +71,12 @@
 
 .ourStoryWrapper {
   background-color: #dbffe0;
-  padding: 100px 200px 100px 200px;
+  /* padding: 100px 200px 100px 200px; */
+  padding: 3rem 6rem;
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  /* gap: 50px; */
+  gap: 3rem;
   justify-content: center;
   align-items: center;
 }
@@ -90,8 +98,10 @@
 }
 
 .ourStoryImg {
-  width: 40rem;
+  width: 100%;
+  object-fit: cover;
   border-radius: 5px;
+  max-height: 400px;
 }
 
 .ourStoryWrapperpart2 {
@@ -125,5 +135,22 @@
 
   .ourStoryImg {
     width: 20rem;
+  }
+}
+/* media queries for tablets  */
+@media screen and (min-width: 450px) and (max-width: 1024px) {
+  .about_Service,
+  .ourStoryWrapper {
+    flex-direction: column-reverse;
+    padding: 2rem;
+    gap: 0rem;
+  }
+  .ourStoryWrapper {
+    flex-direction: column;
+    padding: 4rem;
+    gap: 2rem;
+  }
+  .aboutImg {
+    padding: 2rem;
   }
 }

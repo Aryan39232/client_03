@@ -16,15 +16,38 @@ import { TbLicense } from "react-icons/tb";
 import { FaRegCalendarCheck } from "react-icons/fa6";
 import { IoTimer } from "react-icons/io5";
 import Upper_Footer from "../../Components/Upper_Footer/Upper_Footer";
+import { useEffect, useState } from "react";
 
 function Home() {
   const navigate = useNavigate();
+  const [isScrolledDown, setIsScrolledDown] = useState(false);
+
+  useEffect(() => {
+    let prevScrollPos = window.pageYOffset;
+    const handleScroll = () => {
+      const currentScrollPos = window.pageYOffset;
+      const isScrollingDown = currentScrollPos != 0;
+      setIsScrolledDown(isScrollingDown);
+      prevScrollPos = currentScrollPos;
+      console.log(isScrolledDown);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
     <>
-      <div className={styles.wrapper}>
+      <div className={styles.wrapper} style={{ position: "relative" }}>
         {/* Landing cover */}
 
-        <div className={styles.FixedRightContent}>
+        <div
+          className={`${styles.FixedRightContent} ${
+            !isScrolledDown ? "" : styles.Hidden
+          }`}
+        >
           <div className={styles.RightAlignedContent}>
             <div className={styles.CallUS}>
               <IoCall /> &nbsp; +91 9876543210
@@ -32,7 +55,6 @@ function Home() {
             <div className={styles.GETQUOTE}>GET A QUOTE</div>
           </div>
         </div>
-
         <div
           className={styles.CoverPic}
           style={{ backgroundImage: `url(${homeCoverPic})` }}

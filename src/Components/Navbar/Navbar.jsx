@@ -11,12 +11,21 @@ function Navbar() {
   const handleShowNavbar = () => {
     setShowNavbar(!showNavbar);
   };
+  const handleNavClick = (path) => {
+    navigate(`/${path}`);
+    setShowNavbar(!showNavbar);
+  };
 
   return (
     <nav className={styles.navbar}>
       <div className={styles.container}>
         {/* <Logo /> */}
-          <img src={Logo} alt="logo" className={styles.logo} onClick={() => navigate("/")}/>
+        <img
+          src={Logo}
+          alt="logo"
+          className={styles.logo}
+          onClick={() => navigate("/")}
+        />
         <div className={styles.menu_icon} onClick={handleShowNavbar}>
           <Hamburger />
         </div>
@@ -24,19 +33,19 @@ function Navbar() {
           className={`${styles.nav_elements}  ${showNavbar && styles.active}`}
         >
           <ul>
-            <li>
-              <NavLink to="/">HOME</NavLink>
+            <li onClick={() => handleNavClick("")}>
+              <NavLink>HOME</NavLink>
             </li>
-            <li>
-              <NavLink to="/services">SERVICES</NavLink>
+            <li onClick={() => handleNavClick("services")}>
+              <NavLink>SERVICES</NavLink>
             </li>
-            <li>
-              <NavLink to="/about">ABOUT US</NavLink>
+            <li onClick={() => handleNavClick("about")}>
+              <NavLink>ABOUT US</NavLink>
             </li>
-            <li>
-              <NavLink to="/contact">CONTACT US</NavLink>
+            <li onClick={() => handleNavClick("contact")}>
+              <NavLink>CONTACT US</NavLink>
             </li>
-            <li>
+            <li onClick={() => handleNavClick("testimonials")}>
               <NavLink to="/testimonials">TESTIMONIALS</NavLink>
             </li>
           </ul>

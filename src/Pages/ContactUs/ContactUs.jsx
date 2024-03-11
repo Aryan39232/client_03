@@ -125,7 +125,7 @@ function ContactUs() {
               />
             </div>
 
-            <div className={styles.submitBtn}>Submit</div>
+            <button className={styles.submitBtn}>Submit</button>
           </div>
         </div>
       </div>
