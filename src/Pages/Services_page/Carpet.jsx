@@ -18,40 +18,149 @@ const Carpet = () => {
           <div className={styles.ourStoryText}>
             <span className={styles.ourStoryHead}>
               {" "}
-              Rest Easy, Sleep Healthy: Sparkling Clean Mattresses, Naturally!{" "}
+              Stains Out, Shine In – Your Carpets Deserve the Best.
             </span>
 
             <span className={styles.ourStoryDesc}>
-              If you have ever tried to change mattress sheets or changed over
-              your mattress, you will better understand the effort and cost
-              involved in removing and replacing the one you have. To reduce the
-              time and spend more time with your loved ones , heavy lifting and
-              expense, you can simply renew your mattress with professional
-              mattress cleaning.
+              There are several reasons why home owners and tenants may need to
+              have their carpets cleaned regularly. <br />
               <br />
-              <br />
-              Professional mattress cleaning process will not only cost you less
-              then a new one but it will look better than new one mattress.
-              Mattress cleaning is a crucial step in prolonging the life of your
-              mattress to ensure it goes the long distance.
-              <br />
-              <br />
-              Professional mattress cleaning is very important for your health
-              and for the quality of your sleep. Moreover, with dirt and debris,
-              your mattress encounters sweat, spills and accidents. Our mattress
-              cleaning experts will clean and sanitise it with specialised
-              products and deodorizer methods that only a professional mattress
-              cleaning service can provide you at very affordable price.
-              <br />
-              <br />
-              Professional mattress cleaning is very important for your health
-              and for the quality of your sleep. Moreover, with dirt and debris,
-              your mattress encounters sweat, spills and accidents. Our mattress
-              cleaning experts will clean and sanitise it with specialised
-              products and deodorizer methods that only a professional mattress
-              cleaning service can provide you at very affordable price.
-              <br />
-              <br />
+              <ol>
+                <li>
+                  {" "}
+                  <span
+                    className={styles.subHeading}
+                    style={{ fontSize: "1.1rem" }}
+                  >
+                    Tenant agreements :-
+                  </span>{" "}
+                  Tenants are often required to maintain cleanliness of the
+                  property , including carpets , as per the terms of their lease
+                  agreement.
+                </li>
+                <li>
+                  {" "}
+                  <span
+                    className={styles.subHeading}
+                    style={{ fontSize: "1.1rem" }}
+                  >
+                    Seasonal Cleaning :-
+                  </span>{" "}
+                  some homeowners opt for some seasonal or annual carpet
+                  cleaning as part of routine maintenance .
+                </li>
+                <li>
+                  {" "}
+                  <span
+                    className={styles.subHeading}
+                    style={{ fontSize: "1.1rem" }}
+                  >
+                    Dirt and Dust Accumulation :-
+                  </span>{" "}
+                  Carpets act as filters, trapping dust, dirt, and allergens
+                  over time. Regular foot traffic can push these particles
+                  deeper into the carpet fibers, making it necessary to clean
+                  them to maintain a healthy indoor environment.
+                </li>
+                <li>
+                  {" "}
+                  <span
+                    className={styles.subHeading}
+                    style={{ fontSize: "1.1rem" }}
+                  >
+                    Stains and Spills :-
+                  </span>{" "}
+                  Accidental spills, pet accidents, or tracked-in stains can
+                  occur, leading to visible marks on the carpet. Prompt cleaning
+                  helps prevent these stains from becoming permanent.
+                </li>
+                <li>
+                  <span
+                    className={styles.subHeading}
+                    style={{ fontSize: "1.1rem" }}
+                  >
+                    Allergen Control :-
+                  </span>{" "}
+                  Carpets can harbour allergens such as dust mites, pet dander,
+                  and pollen. Regular cleaning, especially using methods like
+                  steam cleaning, helps reduce allergen levels, providing relief
+                  for individuals with allergies or asthma.
+                </li>
+                <li>
+                  {" "}
+                  <span
+                    className={styles.subHeading}
+                    style={{ fontSize: "1.1rem" }}
+                  >
+                    Odor Removal :-
+                  </span>{" "}
+                  Carpets can trap odors from various sources, including
+                  cooking, pets, or spills. Cleaning helps eliminate these odors
+                  and keeps the indoor environment smelling fresh.
+                </li>
+                <li>
+                  {" "}
+                  <span
+                    className={styles.subHeading}
+                    style={{ fontSize: "1.1rem" }}
+                  >
+                    Prolonging Carpet Life :-
+                  </span>{" "}
+                  Regular maintenance, including cleaning, can extend the life
+                  of carpets by removing dirt and debris that can contribute to
+                  fiber degradation. It helps preserve the appearance and
+                  texture of the carpet.
+                </li>
+                <li>
+                  {" "}
+                  <span
+                    className={styles.subHeading}
+                    style={{ fontSize: "1.1rem" }}
+                  >
+                    Appearance and Aesthetics :-
+                  </span>{" "}
+                  Clean carpets enhance the overall appearance of a room.
+                  Regular cleaning prevents carpets from looking dingy, faded,
+                  or discoloured.
+                </li>
+                <li>
+                  {" "}
+                  <span
+                    className={styles.subHeading}
+                    style={{ fontSize: "1.1rem" }}
+                  >
+                    Preventing Mold and Mildew :-{" "}
+                  </span>
+                  Moisture can get trapped in carpets, leading to the growth of
+                  mold and mildew, especially in humid climates. Regular
+                  cleaning, coupled with proper ventilation, helps prevent these
+                  issues.
+                </li>
+                <li>
+                  {" "}
+                  <span
+                    className={styles.subHeading}
+                    style={{ fontSize: "1.1rem" }}
+                  >
+                    Health and Hygiene :-
+                  </span>{" "}
+                  Carpets can harbour bacteria and germs, contributing to poor
+                  indoor air quality. Regular cleaning promotes a healthier
+                  living environment by removing harmful microorganisms.
+                </li>
+                <li>
+                  {" "}
+                  <span
+                    className={styles.subHeading}
+                    style={{ fontSize: "1.1rem" }}
+                  >
+                    Pet Hair and Dander :-{" "}
+                  </span>
+                  Homes with pets may experience an accumulation of pet hair and
+                  dander in carpets. Cleaning helps manage these allergens and
+                  keeps the home cleaner and more comfortable.
+                </li>
+              </ol>
             </span>
           </div>
 
@@ -62,21 +171,44 @@ const Carpet = () => {
           <div className={styles.about_text_content}>
             <span className={styles.aboutHead}>
               {" "}
-              What shoud I need to write
+              OUR BEST 1 CLEANERS CLEANING PROCESS :-
             </span>
 
             <span className={styles.aboutDesc}>
-              Optima mattress cleaning services are performed utilising the
-              highly effective hot water extraction method. It is suitable for
-              both synthetic and mixed fibre materials for superior cleans which
-              do not compromise the fabric. Our technicians will assess and
-              treat any stubborn stains or soilage. These areas will be treated
-              prior to cleaning before proceeding with the most suitable method
-              of cleaning. We at BEST 1 Cleaners serves reasonably, efficiently,
-              and we are feeling proud about what we do. Our services for
-              professional mattress cleaning will provide a premium result with
-              affordable prices for tenants sand the homeowners. Let us clean
-              your mattress and left it allergen free !
+              BEST 1 Cleaners our specialists carpet and upholstery cleaning
+              teams are equipped with cutting – edge machines designed for
+              modern cleaning needs. These machines ensure a superior level of
+              cleanliness that surpasses traditional steam cleaning methods for
+              carpets and rugs. Our services cater to all types of mixed fiber
+              carpets, rugs, and upholstery, employing a meticulous process
+              consisting of multiple steps to achieve consistently high-
+              standard results.
+              <br />
+              <br />
+              Firstly, our professionals will pre inspect the type , condition ,
+              and material of the carpet or rug. To identify any specific stains
+              , spots , or areas of concern.Then, we will do colorfast testing ,
+              in this testing they will test a small, inconspicuous area for
+              colour fastness to ensure that the cleaning process won’t cause
+              colour bleeding or fading. Next, we will do thoroughly vacuum the
+              carpet or rugs to remove soil and debris.
+              <br />
+              <br />
+              Secondly, we apply pre- treatment to solution to the high traffic
+              area, stains and spots. After that , our professionals will
+              agitate your carpet or rug fibre with brush or rotary machine ( if
+              needed ) to loosen imbedded dirt. The 3rd step is HOT WATER
+              EXTRACTION ( steam cleaning ) in this step by using hot water
+              extraction machine to inject hot water and cleaning solution into
+              your carpet or rug and machine will extract the solution along
+              with dirt and contaminants. In the next stage , for some delicate
+              rugs or situations where moisture is concern specialists may opt
+              for low - moisture cleaning such as dry cleaning.
+              <br />
+              <br />
+              The 4th step will include the process of making carpet dry quickly
+              by turning on fans or opening the windows. In the last, you will
+              feel like you just get your NEW CARPETS and RUG (:
               <br />
               <br />
             </span>
@@ -84,71 +216,26 @@ const Carpet = () => {
 
           <img src={randomImg} className={styles.aboutImg} alt="" />
         </div>
-        <div className={styles.ourStoryWrapper}>
-          <div className={styles.ourStoryText}>
-            <span className={styles.ourStoryHead}>
-              {" "}
-              The BEST 1 Cleaners Mattress Cleaning Process{" "}
-            </span>
 
-            <span className={styles.ourStoryDesc}>
-              Firstly , the cleaning process begins with a thorough inspection
-              of a mattress. Specialists look for stains, odors, signs of wear
-              and tear, any specific areas that may require targeted treatment.
-              Then, by using a high powered vacuum the entire surface of the
-              mattress. This step removes loose particles such as dust, hair,
-              and pet dander.
-              <br />
-              <br />
-              In the next step , if there is any visible stains on the mattress
-              then it will be treated by our best 1 cleaners appropriate
-              cleaning solutions. Our professional mattress cleaning specialists
-              have a range of products at their disposal and will choose one
-              based on the type of the stain (e.g. blood, urine, sweat ) and
-              type of the mattress to ensure effective removal without damaging
-              the mattress fabric.
-              <br />
-              <br />
-              The main phase of mattress cleaning involves many different
-              methods such as
-              <br />
-              <br />
-              Hot water extraction ( steam cleaning ) : in this method we will
-              inject hot water and cleaning solution into the mattress fabric
-              and then vacuums it out. It is effective for deep cleaning and
-              killing bacteria , viruses and dust mites.
-              <br />
-              <br />
-              Dry cleaning : some mattresses may require a dry cleaning method,
-              which uses minimal moisture and specific chemicals to clean
-              without wetting the mattress.
-              <br />
-              <br />
-              In the 5th stage , for better and fresh feeling , our mattress
-              cleaning specialists will apply deodorizer to the mattress to
-              remove any lingering odors , leaving it smelling fresh.
-              <br />
-              <br />
-              Final stage is very crucial as it is called drying stage . we must
-              insure that mattress is completely dry to prevent mold and mildew
-              growth. Professionals may use air movers or fans to speed up the
-              drying process. In the case of dry cleaning methods , drying time
-              is minimal.
-              <br />
-              <br />
-              Finally , our specialist will also provide advice on how to
-              maintain your mattress cleanliness and extend the time between
-              professional cleanings. ‘’ Choosing a professional mattress
-              cleaning service can significantly improve your sleeping
-              environment’s health and hygiene, contributing to better sleep
-              quality and overall well being ‘’. The BEST 1 Cleaners mattress
-              cleaning experts are well known for their expertise in mattress
-              cleaning service for delivering superior cleaning results and
-              attention to detail cleaning.
-            </span>
-          </div>
-
-          <img src={teamImg} className={styles.ourStoryImg} alt="" />
+        <div
+          style={{
+            boxShadow: "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px",
+            padding: "1rem",
+            backgroundColor: "#ace1af",
+          }}
+        >
+          <span className={styles.ourStoryHead} style={{ color: "#2a6231" }}>
+            What our experts can do : -
+          </span>
+          <ul>
+            <li> Spot and stain removal</li>
+            <li>Shampooing + deodorizing</li>
+            <li>Low moisture cleaning</li>
+            <li>Pet stain and Odor removal</li>
+            <li>Carpet protection ( scotchguard )</li>
+            <li>Deep cleaning of high traffic Areas</li>
+            <li>Hot water Extraction ( steam cleaning ) </li>
+          </ul>
         </div>
       </div>
     </>
