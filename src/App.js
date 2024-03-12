@@ -30,10 +30,10 @@ function App() {
           <Route path="/bbq-services" element={<Bbq />} />
           <Route path="/office-services" element={<Office />} />
           <Route path="/EndOfLease" element={<EndOfLease />} />
-          <Route paht="/Spring-services" element={<Spring />} />
-          <Route paht="/Home-clean-services" element={<Home_clean />} />
-          <Route paht="/gardening-services" element={<Gardening />} />
-          <Route paht="/Carpet-services" element={<Carpet />} />
+          <Route path="/Spring-services" element={<Spring />} />
+          <Route path="/Home-clean-services" element={<Home_clean />} />
+          <Route path="/gardening-services" element={<Gardening />} />
+          <Route path="/Carpet-services" element={<Carpet />} />
         </Routes>
         <Upper_Footer />
         <Footer />
