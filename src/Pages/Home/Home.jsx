@@ -1,5 +1,5 @@
 import styles from "./home.module.css";
-import { Navbar, Services } from "../../Components";
+import { Carousel, Navbar, Services } from "../../Components";
 import { useNavigate } from "react-router-dom";
 import homeCoverPic from "../../Assets/Images/Home/home1.jpg";
 import livingRoom from "../../Assets/Images/Home/livingRoom.jpg";
@@ -229,6 +229,7 @@ function Home() {
 
         {/* Founder's Message */}
       </div>
+      <Carousel />
     </>
   );
 }

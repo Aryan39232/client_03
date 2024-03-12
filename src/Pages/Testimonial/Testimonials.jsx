@@ -1,11 +1,11 @@
 import styles from "./testimonials.module.css";
 import coverPic from "../../Assets/Images/Testimonials/cover.jpg";
-// import TestiMonials from "../../Components/TestmonialCard/TestiMonials";
+import { Carousel } from "../../Components";
 
 function Testimonials() {
   return (
     <>
-      {/* <div className={styles.testiWrapper}>
+      <div className={styles.testiWrapper}>
         <div
           className={styles.testiHeader}
           style={{ backgroundImage: `url(${coverPic})` }}
@@ -13,8 +13,8 @@ function Testimonials() {
           <span className={styles.heading}> TESTIMONIALS </span>
           <span className={styles.subHead}> What Our Clients Say </span>
         </div>
-         <TestiMonials /> 
-      </div> */}
+        <Carousel />
+      </div>
     </>
   );
 }
