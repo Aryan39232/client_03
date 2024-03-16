@@ -65,21 +65,21 @@ function ContactUs() {
 
             <div className={styles.location}>
               <h3>Brisbane</h3>
-              <p>5/505 Boundary street, Springhill 4000</p>
-              <p>07 3040 7377</p>
+              <p> 39 Middle street , coopers plains QLD 4108</p>
+              <p>0411786128</p>
             </div>
 
             <div className={styles.location}>
               <h3>Gold Coast</h3>
-              <p>Optima Cleaners Southport, Geoffrey Avenue, Southport QLD</p>
-              <p>07 3040 7377</p>
+              <p>18a Robe ct, Helensvale, QLD 4212</p>
+              <p>0411786128</p>
             </div>
 
-            <div className={styles.location}>
+            {/* <div className={styles.location}>
               <h3>Sunshine Coast</h3>
               <p>Building 1/30 Chancellor Village Blvd, Sippy Downs QLD 4556</p>
               <p>07 3040 7377</p>
-            </div>
+            </div> */}
           </div>
 
           <div className={styles.contact_form}>

@@ -11,6 +11,11 @@ import priceCoverPic2 from "../../Assets/Images/Home/cleaning-sample-2.jpg";
 import priceCoverPic3 from "../../Assets/Images/Home/cleaning-sample-3.jpg";
 import priceCoverPic4 from "../../Assets/Images/Home/cleaning-sample-4.jpg";
 
+// client images
+import mcDonalds from "../../Assets/Images/Home/mcdonalds.png";
+import bright_start from "../../Assets/Images/Home/bright_start.png";
+import child_care from "../../Assets/Images/Home/child_care.jpg";
+
 // Feature Icons
 import { TbLicense } from "react-icons/tb";
 import { FaRegCalendarCheck } from "react-icons/fa6";
@@ -61,14 +66,15 @@ function Home() {
         >
           <div className={styles.coverContent}>
             <span className={styles.CoverText}>
-              {" "}
-              Domestic & Commertial Cleaning{" "}
+              Your Local Commercial & Residential Cleaning company
             </span>
             <span className={styles.CoverDesc}>
               {" "}
-              Local cleaners providing residential and commercial cleaning
-              services in Brisbane, Gold Coast, Melbourne, Sydney, Perth,
-              Adelaide, Hobart and Sunshine Coast{" "}
+              Your Local cleaners providing all type of domestic and commercial
+              cleaning services in most of the main cities of Australia
+              including . Here are the list of areas we serve Brisbane, Gold
+              Coast, Melbourne, Sydney, Perth, Adelaide as well as Sunshine
+              Coast..
             </span>
             <button
               className={styles.coverBtn}
@@ -89,15 +95,24 @@ function Home() {
           <div className={styles.servicesLeft}>
             <span className={styles.leftHead}>
               {" "}
-              How can our professional cleaning services make a difference?{" "}
+              WHY ‘’ BEST 1 CLEANERS ‘’ IS THE BEST COMMERCIAL AND DOMESTIC
+              CLEANERS BRISBANE ?
             </span>
             <span className={styles.leftDesc}>
-              Hire our professional cleaning services and you'll be thrilled to
-              see the results that we deliver in a short amount of time. We make
-              your home or workplace look just as impressive as it was when you
-              moved in. Thanks to our commercial-gr ade equipment and effective
-              cleaning products, no amount of dirt, grime or stains stand a
-              chance.
+              Best 1 Cleaners is a commercial and domestic cleaning company with
+              fully trained and police verified cleaners who are committed to
+              provide excellent cleaning service. We are an ISO 9001:2015
+              certified cleaning company and we have passed all the requirements
+              of quality management system. Now , we are serving the commercial
+              and domestic cleaning services to Brisbane, Melbourne, Sydney,
+              Adelaide, and Perth. <br />
+              <br />
+              At Best 1 Cleaners , we understand the importance of maintaining a
+              clean and sanitary environment, whether it’s your home or
+              workplace. With our unwavering commitment to excellence and
+              attention to detail, we deliver top-quality cleaning service
+              tailored to meet the unique needs of our residential and
+              commercial clients.
             </span>
             <div className={styles.viewAllServicesBtn}> View All Services </div>
           </div>
@@ -228,6 +243,21 @@ function Home() {
         </div>
 
         {/* Founder's Message */}
+        {/* Our Clients Section */}
+        <div className={styles.clientContainer}>
+          <h1 className={styles.featureCardHead}>Our Clients</h1>
+          <div>
+            <div className={styles.featureCard}>
+              <img src={mcDonalds} alt="" />
+            </div>
+            <div className={styles.featureCard}>
+              <img src={child_care} alt="" />
+            </div>
+            <div className={styles.featureCard}>
+              <img src={bright_start} alt="" />
+            </div>
+          </div>
+        </div>
       </div>
       {/* <Carousel /> */}
     </>
