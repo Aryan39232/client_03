@@ -19,23 +19,29 @@ const About = () => {
           <div className={styles.about_text_content}>
             <span className={styles.aboutHead}>
               {" "}
-              Who Is Best1 Bond Clean Group{" "}
+              A CLEANING COMPANY THAT YOU CAN TRUST FOR ALL YOUR CLEANING NEEDS
             </span>
 
             <span className={styles.aboutDesc}>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et
-              deleniti sequi eos dolores. Eveniet saepe aliquid quia veniam
-              ullam in exercitationem perspiciatis corrupti aperiam.
+              At Best 1 Cleaners , we’re known across Australis for our
+              top-notch Domestic and Commercial cleaning and maintenance
+              services. Whether it’s Hospitality, Education, Fitness, Retail, or
+              the medical sector, we’ve got you covered.
               <br />
               <br />
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et
-              deleniti sequi eos dolores. Eveniet saepe aliquid quia veniam
-              ullam in exercitationem perspiciatis corrupti aperiam odit
-              asperiores, tempore nostrum, magnam vel incidunt inventore.
+              Our team of cleaning professionals is the cream of the crop. We
+              handpick each member after thorough training and background
+              checks, ensuring they meet our high standards.
               <br />
               <br />
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et
-              deleniti sequi eos dolores. Eveniet saepe aliquid quia veniam.
+              Our goal is simple : provide world- class cleaning services while
+              minimizing our impact on the environment. That’s why we use safe ,
+              eco- friendly products and supplies.
+              <br />
+              <br />
+              With Best 1 Cleaners, you can trust that your space will be
+              spotless and sustainable. We’re dedicated to delivering results
+              that leave our clients satisfied, every time.
             </span>
           </div>
 
@@ -44,42 +50,43 @@ const About = () => {
 
         <div className={styles.ourStoryWrapper}>
           <div className={styles.ourStoryText}>
-            <span className={styles.ourStoryHead}> Our Story </span>
+            <span className={styles.ourStoryHead}>
+              {" "}
+              Choose us and you will receive :-
+            </span>
 
             <span className={styles.ourStoryDesc}>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et
-              deleniti sequi eos dolores. Eveniet saepe aliquid quia veniam
-              ullam in exercitationem perspiciatis corrupti aperiam.
-              <br />
-              <br />
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et
-              deleniti sequi eos dolores. Eveniet saepe aliquid quia veniam.
-              <br />
-              <br />
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              <br />
-              <br />
-              <b> Our Values: </b>
-              <p> 1. Caring to serve.</p>
-              <p>
-                {" "}
-                2. Willingness to exceed expectation and walk the extra mile for
-                client
-              </p>
-              <p>
-                {" "}
-                3. Willingness to learn, in every day and stay with
-                beginners'mind
-              </p>
-              <p>4. Thinking "win-win-win"</p>
-              <p>5. Honesty and integrit</p>
-              <p>6. Caring to receive and offer help and feedback</p>
-              <p>
-                7. We understand we need to change all time in order to stay
-                great
-              </p>
-              <p>8. Proactiveness</p>
-              <p>9. Treat everyone with great respect</p>
+              <ul>
+                <li> Guaranteed customer satisfaction every time.</li>
+                <li>
+                  {" "}
+                  Cleaning services that give you great value for your money.
+                </li>
+                <li>
+                  {" "}
+                  A team of talented and skilled cleaners ready to tackle any
+                  job.
+                </li>
+                <li>
+                  {" "}
+                  Eco-friendly practices that reduce our environmental impact.
+                </li>
+              </ul>
+            </span>
+
+            <span>
+              {" "}
+              In addition to commercial cleaning, we also help our customers
+              with recycling programs. We are committed to promoting green, safe
+              and non-toxic cleaning methods and supplies. Our team prioritizes
+              creating a clean, safe , and healthy workplace for our clients.
+            </span>
+
+            <span>
+              {" "}
+              If you want more details about our cleaning services or are
+              interested in learning about our recycling programs, don’t
+              hesitate to reach out to us. We’re here to help !
             </span>
           </div>
 

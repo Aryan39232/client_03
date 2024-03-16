@@ -6,7 +6,7 @@
   font-family: "Poppins", "sans-serif";
   background-color: antiquewhite;
 } */
-
+/* 
 @media screen and (max-width: 700px) {
   .leftCard {
     display: none;
@@ -39,7 +39,7 @@
   padding: 2em;
   width: 35%;
   height: 200px;
-  flex: 1; /* each card is of equal size */
+  flex: 1; 
   box-shadow: 6px 6px 17px 1px rgba(0, 0, 0, 0.36);
   -webkit-box-shadow: 6px 6px 17px 1px rgba(0, 0, 0, 0.36);
 }
@@ -124,4 +124,4 @@ p {
 
 .viewAll:active {
   background-color: grey;
-}
+} */

@@ -229,7 +229,7 @@ function Home() {
 
         {/* Founder's Message */}
       </div>
-      <Carousel />
+      {/* <Carousel /> */}
     </>
   );
 }
