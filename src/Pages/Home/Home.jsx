@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import homeCoverPic from "../../Assets/Images/Home/home1.jpg";
 import livingRoom from "../../Assets/Images/Home/livingRoom.jpg";
 import { IoCall } from "react-icons/io5";
-
+import "./modal.css";
 // Card Images
 import priceCoverPic1 from "../../Assets/Images/Home/cleaning-sample.jpg";
 import priceCoverPic2 from "../../Assets/Images/Home/cleaning-sample-2.jpg";
@@ -23,10 +23,68 @@ import { IoTimer } from "react-icons/io5";
 import Upper_Footer from "../../Components/Upper_Footer/Upper_Footer";
 import { useEffect, useState } from "react";
 import Testimonials from "../Testimonial/Testimonials";
+import emailjs from "@emailjs/browser";
 
 function Home() {
   const navigate = useNavigate();
   const [isScrolledDown, setIsScrolledDown] = useState(false);
+  const [show, setShow] = useState(false);
+  const closeBtn = () => {
+    setShow(false);
+  };
+  const options = {
+    publicKey: process.env.REACT_PUBLIC_KEY,
+    // Do not allow headless browsers
+    blockHeadless: true,
+    limitRate: {
+      // Set the limit rate for the application
+      id: "best1_cleaners",
+      // Allow 1 request per 10s
+      throttle: 1000,
+    },
+  };
+  const [formData, setFormData] = useState({
+    email: "",
+    message: "",
+    phoneNumber: "",
+    fullName: "",
+  });
+
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prevData) => ({ ...prevData, [name]: value }));
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    // Replace these with your actual email service, template ID, and user ID
+    const serviceId = process.env.REACT_APP_SERVICE_ID;
+    console.log("serviceId: ", serviceId);
+    const templateId = process.env.REACT_APP_TEMPLATE_ID;
+    console.log("templateId: ", templateId);
+
+    try {
+      await emailjs.send(serviceId, templateId, formData, {
+        publicKey: process.env.REACT_APP_PUBLIC_KEY,
+      });
+
+      // Clear form data after successful submission
+      setFormData({
+        email: "",
+        phoneNumber: "",
+        message: "",
+        fullName: "",
+      });
+
+      alert("Email sent successfully!");
+    } catch (error) {
+      console.error("Error sending email:", error);
+    }
+  };
+  useEffect(() => {
+    emailjs.init(options);
+  }, []);
 
   useEffect(() => {
     let prevScrollPos = window.pageYOffset;
@@ -44,6 +102,10 @@ function Home() {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+  const handleModal = () => {
+    console.log("Click modal");
+    setShow(true);
+  };
   return (
     <>
       <div className={styles.wrapper} style={{ position: "relative" }}>
@@ -58,7 +120,9 @@ function Home() {
             <div className={styles.CallUS}>
               <IoCall /> &nbsp; +91 9876543210
             </div>
-            <div className={styles.GETQUOTE}>GET A QUOTE</div>
+            <div className={styles.GETQUOTE} id="myBtn" onClick={handleModal}>
+              GET A QUOTE
+            </div>
           </div>
         </div>
         <div
@@ -262,6 +326,73 @@ function Home() {
       </div>
       {/* <Carousel /> */}
       <Testimonials />
+      <div
+        id="myModal"
+        className="modal"
+        style={{ display: show ? "block" : "none" }}
+      >
+        <div className="modal-content">
+          <span className="close" onClick={closeBtn}>
+            &times;
+          </span>
+          <form className={styles.contact_form} onSubmit={handleSubmit}>
+            <span className={styles.formHeader}>SEND A MESSAGE</span>
+
+            <div className={styles.input_group}>
+              <div className={styles.formField}>
+                <div className={styles.label}>Full Name</div>
+                <input
+                  className={styles.formInput}
+                  type="text"
+                  id="fullName"
+                  onChange={handleInputChange}
+                  name="fullName"
+                  required
+                />
+              </div>
+
+              <div className={styles.formField}>
+                <div className={styles.label}>Email</div>
+                <input
+                  required
+                  className={styles.formInput}
+                  type="email"
+                  id="email"
+                  onChange={handleInputChange}
+                  name="email"
+                />
+              </div>
+            </div>
+            <div className={styles.formField}>
+              <div className={styles.label}>Phone</div>
+              <input
+                required
+                className={styles.formInput}
+                type="tel"
+                id="phone"
+                name="phoneNumber"
+                onChange={handleInputChange}
+              />
+            </div>
+
+            <div className={styles.formField}>
+              <div className={styles.label}> Job Description </div>
+              <textarea
+                className={styles.formInput}
+                id="jobDescription"
+                name="jobDescription"
+                rows="4"
+                onChange={handleInputChange}
+                required
+              />
+            </div>
+
+            <button className={styles.submitBtn} type="submit">
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
     </>
   );
 }
