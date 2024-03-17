@@ -22,6 +22,7 @@ import { FaRegCalendarCheck } from "react-icons/fa6";
 import { IoTimer } from "react-icons/io5";
 import Upper_Footer from "../../Components/Upper_Footer/Upper_Footer";
 import { useEffect, useState } from "react";
+import Testimonials from "../Testimonial/Testimonials";
 
 function Home() {
   const navigate = useNavigate();
@@ -260,6 +261,7 @@ function Home() {
         </div>
       </div>
       {/* <Carousel /> */}
+      <Testimonials />
     </>
   );
 }
