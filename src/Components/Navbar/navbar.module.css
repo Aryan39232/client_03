@@ -17,7 +17,8 @@
 
 .logo {
   width: 100px;
-  height: 63px;
+  height: 50px;
+  object-fit: contain;
 }
 
 .menu_icon {
