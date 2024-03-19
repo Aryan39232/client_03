@@ -1,8 +1,63 @@
 import styles from "./ContactUs.module.css";
 import coverPic from "../../Assets/Images/Contact/cover.jpg";
 import { FaTwitter, FaInstagram, FaFacebook } from "react-icons/fa";
-
+import emailjs from "@emailjs/browser";
+import { useState } from "react";
+import { useEffect } from "react";
 function ContactUs() {
+  const options = {
+    publicKey: process.env.REACT_PUBLIC_KEY,
+    // Do not allow headless browsers
+    blockHeadless: true,
+    limitRate: {
+      // Set the limit rate for the application
+      id: "best1_cleaners",
+      // Allow 1 request per 10s
+      throttle: 1000,
+    },
+  };
+  const [formData, setFormData] = useState({
+    email: "",
+    message: "",
+    phoneNumber: "",
+    fullName: "",
+  });
+
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prevData) => ({ ...prevData, [name]: value }));
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    // Replace these with your actual email service, template ID, and user ID
+    const serviceId = process.env.REACT_APP_SERVICE_ID;
+    console.log("serviceId: ", serviceId);
+    const templateId = process.env.REACT_APP_TEMPLATE_ID;
+    console.log("templateId: ", templateId);
+
+    try {
+      await emailjs.send(serviceId, templateId, formData, {
+        publicKey: process.env.REACT_APP_PUBLIC_KEY,
+      });
+
+      // Clear form data after successful submission
+      setFormData({
+        email: "",
+        phoneNumber: "",
+        message: "",
+        fullName: "",
+      });
+
+      alert("Email sent successfully!");
+    } catch (error) {
+      console.error("Error sending email:", error);
+    }
+  };
+  useEffect(() => {
+    emailjs.init(options);
+  }, []);
   return (
     <>
       <div className={styles.contact_us}>
@@ -65,24 +120,24 @@ function ContactUs() {
 
             <div className={styles.location}>
               <h3>Brisbane</h3>
-              <p>5/505 Boundary street, Springhill 4000</p>
-              <p>07 3040 7377</p>
+              <p> 39 Middle street , coopers plains QLD 4108</p>
+              <p>0411786128</p>
             </div>
 
             <div className={styles.location}>
               <h3>Gold Coast</h3>
-              <p>Optima Cleaners Southport, Geoffrey Avenue, Southport QLD</p>
-              <p>07 3040 7377</p>
+              <p>18a Robe ct, Helensvale, QLD 4212</p>
+              <p>0411786128</p>
             </div>
 
-            <div className={styles.location}>
+            {/* <div className={styles.location}>
               <h3>Sunshine Coast</h3>
               <p>Building 1/30 Chancellor Village Blvd, Sippy Downs QLD 4556</p>
               <p>07 3040 7377</p>
-            </div>
+            </div> */}
           </div>
 
-          <div className={styles.contact_form}>
+          <form className={styles.contact_form} onSubmit={handleSubmit}>
             <span className={styles.formHeader}>SEND A MESSAGE</span>
 
             <div className={styles.formField}>
@@ -91,7 +146,9 @@ function ContactUs() {
                 className={styles.formInput}
                 type="text"
                 id="fullName"
+                required
                 name="fullName"
+                onChange={handleInputChange}
               />
             </div>
 
@@ -100,7 +157,9 @@ function ContactUs() {
               <input
                 className={styles.formInput}
                 type="email"
+                onChange={handleInputChange}
                 id="email"
+                required
                 name="email"
               />
             </div>
@@ -110,8 +169,10 @@ function ContactUs() {
               <input
                 className={styles.formInput}
                 type="tel"
+                required
                 id="phone"
-                name="phone"
+                onChange={handleInputChange}
+                name="phoneNumber"
               />
             </div>
 
@@ -121,12 +182,15 @@ function ContactUs() {
                 className={styles.formInput}
                 id="jobDescription"
                 name="jobDescription"
+                onChange={handleInputChange}
                 rows="4"
               />
             </div>
 
-            <button className={styles.submitBtn}>Submit</button>
-          </div>
+            <button className={styles.submitBtn} type="submit">
+              Submit
+            </button>
+          </form>
         </div>
       </div>
     </>
