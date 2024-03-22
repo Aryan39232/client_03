@@ -1,6 +1,6 @@
 import React from "react";
-import styles from "./Upper_Footer.module.css"
-import contactCoverPic from "../../Assets/Images/Home/contactus-cover.jpg"
+import styles from "./Upper_Footer.module.css";
+import contactCoverPic from "../../Assets/Images/Final_img/11.jpg";
 
 function Upper_Footer() {
   return (

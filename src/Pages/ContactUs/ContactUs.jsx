@@ -1,5 +1,5 @@
 import styles from "./ContactUs.module.css";
-import coverPic from "../../Assets/Images/Contact/cover.jpg";
+import coverPic from "../../Assets/Images/Final_img/1.jpg";
 import { FaTwitter, FaInstagram, FaFacebook } from "react-icons/fa";
 import emailjs from "@emailjs/browser";
 import { useState } from "react";
