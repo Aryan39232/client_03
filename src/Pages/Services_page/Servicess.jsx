@@ -1,5 +1,5 @@
 import styles from "../../Components/Services/Services.module.css";
-import coverPic from "../../Assets/Images/Contact/cover.jpg";
+import coverPic from "../../Assets/Images/Final_img/1.jpg";
 import { Services } from "../../Components";
 
 function ServiceCard({ serviceName, imgURL, Icon }) {

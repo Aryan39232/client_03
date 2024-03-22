@@ -1,8 +1,8 @@
 import styles from "./home.module.css";
 import { Carousel, Navbar, Services } from "../../Components";
 import { useNavigate } from "react-router-dom";
-import homeCoverPic from "../../Assets/Images/Home/home1.jpg";
-import livingRoom from "../../Assets/Images/Home/livingRoom.jpg";
+import homeCoverPic from "../../Assets/Images/Final_img/1.jpg";
+import livingRoom from "../../Assets/Images/Final_img/1.jpg";
 import { IoCall } from "react-icons/io5";
 import "./modal.css";
 // Card Images

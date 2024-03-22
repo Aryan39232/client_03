@@ -1,7 +1,7 @@
 import styles from "../about/about.module.css";
-import randomImg from "../../Assets/Images/About/random.jpg";
-import teamImg from "../../Assets/Images/About/team.jpg";
-import aboutCoverImg from "../../Assets/Images/About/cover.jpg";
+import randomImg from "../../Assets/Images/Final_img/1.jpg";
+import teamImg from "../../Assets/Images/Final_img/1.jpg";
+import aboutCoverImg from "../../Assets/Images/Final_img/1.jpg";
 
 const Gardening = () => {
   return (
