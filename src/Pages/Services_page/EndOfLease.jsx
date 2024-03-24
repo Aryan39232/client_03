@@ -1,6 +1,6 @@
 import styles from "../about/about.module.css";
-import randomImg from "../../Assets/Images/Final_img/1.jpg";
-import teamImg from "../../Assets/Images/Final_img/1.jpg";
+import randomImg from "../../Assets/Images/Final_img/3.jpg";
+import teamImg from "../../Assets/Images/Final_img/3.jpg"; // need to set here
 import aboutCoverImg from "../../Assets/Images/Final_img/1.jpg";
 
 const EndOfLease = () => {
@@ -12,7 +12,7 @@ const EndOfLease = () => {
           style={{ backgroundImage: `url(${aboutCoverImg})` }}
         >
           {" "}
-          END OF LEASE{" "}
+          END OF LEASE CLEANING{" "}
         </div>
         <div className={styles.ourStoryWrapper}>
           <div className={styles.ourStoryText}>
@@ -140,7 +140,7 @@ const EndOfLease = () => {
                 </li>
                 <li>
                   {" "}
-                  Clean fans, Air Conditioners ( a.c ) and filters also wipe
+                  Clean fans, Air Conditioners (a.c) and filters also wipe
                   around the air conditioners.
                 </li>
                 <li>
@@ -186,12 +186,12 @@ const EndOfLease = () => {
                 <li>
                   {" "}
                   Clean inside and outside of oven, griller, doors, trays,
-                  racks, glass ( both side inside and outside )and knobs.
+                  racks, glass (both side inside and outside)and knobs.
                 </li>
                 <li>
                   {" "}
-                  Clean inside, outside & behind refrigerator* ( only if
-                  applicable ) .
+                  Clean inside, outside & behind refrigerator* (only if
+                  applicable) .
                 </li>
                 <li>
                   {" "}
@@ -213,7 +213,7 @@ const EndOfLease = () => {
                 <li>
                   {" "}
                   Clean bath, remove built up soap residue and water marks on
-                  tiles and shower screens & soap holder
+                  tiles and shower screens & soap holder.
                 </li>
                 <li>
                   {" "}
@@ -236,7 +236,7 @@ const EndOfLease = () => {
                 </li>
                 <li>
                   {" "}
-                  Clean inside, outside and behind dryer and remove any debris .
+                  Clean inside, outside and behind dryer and remove any debris.
                 </li>
                 <li>
                   {" "}
@@ -282,14 +282,14 @@ const EndOfLease = () => {
               <h2 className={styles.subHeading}>FURNISHED PROPERTY</h2>
               <ul>
                 <li>
-                  Start with duting and wipe over all the furniture surfaces .
+                  Start with duting and wipe over all the furniture surfaces.
                 </li>
                 <li>
                   {" "}
                   All the Kitchen cupboards will be cleaned if ALL ITEMS are
                   removed and placed in front of the cupboard. WE TAKE NO
                   RESPONSIBILTY or have no liability for any damage or breakages
-                  of cupboard items during cleaning .
+                  of cupboard items during cleaning.
                 </li>
               </ul>
             </div>
@@ -318,7 +318,7 @@ const EndOfLease = () => {
                   Our BEST 1 Cleaners are trained as to perform any of the
                   cleaning task. And they will try their best to remove mould
                   from areas however mould can be imbedded into silicon, grout
-                  and other areas. These areas will require a new fittings ,
+                  and other areas. These areas will require a new fittings,
                   specialist to restore back to a normal state.
                 </li>
               </ul>
@@ -330,7 +330,7 @@ const EndOfLease = () => {
                   Our BEST 1 Cleaners are trained as to perform any of the
                   cleaning task. And they will try their best to remove mould
                   from areas however mould can be imbedded into silicon, grout
-                  and other areas. These areas will require a new fittings ,
+                  and other areas. These areas will require a new fittings,
                   specialist to restore back to a normal state.
                 </li>
               </ul>
@@ -339,7 +339,7 @@ const EndOfLease = () => {
               <h2 className={styles.subHeading}>Complete wall wash</h2>
               <ul>
                 <li>
-                  We do spot clean the walls for insect marks etc .. however, a
+                  We do spot clean the walls for insect marks etc... however, a
                   full wall wash may be requires more time and some extra
                   chemicals . A full wall wash is only required if marks are
                   beyond normal wear and tear.
@@ -384,8 +384,8 @@ const EndOfLease = () => {
               <h2 className={styles.subHeading}>Garage Walls</h2>
               <ul>
                 <li>
-                  We do clean major spot cleaning of the garage walls ( except
-                  any greasy or oily marks ).
+                  We do clean major spot cleaning of the garage walls (except
+                  any greasy or oily marks).
                 </li>
               </ul>
             </div>

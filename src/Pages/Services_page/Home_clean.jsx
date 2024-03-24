@@ -1,7 +1,7 @@
 import styles from "../about/about.module.css";
-import randomImg from "../../Assets/Images/Final_img/1.jpg";
-import teamImg from "../../Assets/Images/Final_img/1.jpg";
-import aboutCoverImg from "../../Assets/Images/Final_img/1.jpg";
+import randomImg from "../../Assets/Images/Final_img/10.jpg";
+import teamImg from "../../Assets/Images/Final_img/10.jpg";
+import aboutCoverImg from "../../Assets/Images/Final_img/10.jpg";
 
 const Home_clean = () => {
   return (
@@ -12,7 +12,7 @@ const Home_clean = () => {
           style={{ backgroundImage: `url(${aboutCoverImg})` }}
         >
           {" "}
-          Home Cleaning{" "}
+          HOME CLEANING{" "}
         </div>
         <div className={styles.ourStoryWrapper}>
           <span className={styles.ourStoryHead}>
@@ -35,17 +35,17 @@ const Home_clean = () => {
               promotes better health and well-being for everyone living in it.
               <br />
               <br />
-              A tidy and organized home provides a more comfortable and relaxing
-              environment for occupants to unwind and recharge after a long day.
-              Clutter-free spaces can also help reduce stress and promote mental
-              clarity and focus. tidy and organized home provides a more
-              comfortable and relaxing environment for occupants to unwind and
-              recharge after a long day. Keeping your home clean and
+              • A tidy and organized home provides a more comfortable and
+              relaxing environment for occupants to unwind and recharge after a
+              long day. Clutter-free spaces can also help reduce stress and
+              promote mental clarity and focus. tidy and organized home provides
+              a more comfortable and relaxing environment for occupants to
+              unwind and recharge after a long day. Keeping your home clean and
               well-maintained instills a sense of pride and satisfaction home
               ownership.
               <br />
               <br />
-              A clean home reflects attention to detail, care for the living
+              • A clean home reflects attention to detail, care for the living
               environment, and pride in one’s surroundings. We at Best 1
               Cleaners take pride to clean your homes with green products to
               keep you and your family member safe and healthy. You can choose
@@ -110,16 +110,16 @@ const Home_clean = () => {
               will never be disappointed with our services.
               <br />
               <br />
-              In the next step , if there is any visible stains on the mattress
-              then it will be treated by our best 1 cleaners appropriate
-              cleaning solutions. Our professional mattress cleaning specialists
-              have a range of products at their disposal and will choose one
-              based on the type of the stain (e.g. blood, urine, sweat ) and
-              type of the mattress to ensure effective removal without damaging
-              the mattress fabric.
+              • In the next step , if there is any visible stains on the
+              mattress then it will be treated by our best 1 cleaners
+              appropriate cleaning solutions. Our professional mattress cleaning
+              specialists have a range of products at their disposal and will
+              choose one based on the type of the stain (e.g. blood, urine,
+              sweat ) and type of the mattress to ensure effective removal
+              without damaging the mattress fabric.
               <br />
               <br />
-              At Best 1 Cleaners , customer satisfaction is not just a goal;
+              • At Best 1 Cleaners , customer satisfaction is not just a goal;
               it’s our promise to you . We go above and beyond to ensure that
               every aspect of our service is designed with your satisfaction in
               mind.

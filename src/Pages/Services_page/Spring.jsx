@@ -1,6 +1,6 @@
 import styles from "../about/about.module.css";
-import randomImg from "../../Assets/Images/Final_img/1.jpg";
-import teamImg from "../../Assets/Images/Final_img/1.jpg";
+import randomImg from "../../Assets/Images/Final_img/8.jpg";
+import teamImg from "../../Assets/Images/Final_img/8.jpg";
 import aboutCoverImg from "../../Assets/Images/Final_img/1.jpg";
 
 const Spring = () => {
@@ -12,7 +12,7 @@ const Spring = () => {
           style={{ backgroundImage: `url(${aboutCoverImg})` }}
         >
           {" "}
-          Spring{" "}
+          SPRING CLEANING{" "}
         </div>
         <div className={styles.ourStoryWrapper}>
           <div className={styles.ourStoryText}>
@@ -84,7 +84,7 @@ const Spring = () => {
               and we are feeling proud about what we do. Our services for
               professional mattress cleaning will provide a premium result with
               affordable prices for tenants sand the homeowners. Let us clean
-              your mattress and left it allergen free !
+              your mattress and left it allergen free!
               <br />
               <br />
             </span>
@@ -119,29 +119,37 @@ const Spring = () => {
               <br />
               <ul>
                 <li>
-                   First of all our professional spring cleaners will assess
-                  the property to determine the size , cleaning needs and
-                  special areas that needs attention.
+                  First of all our professional spring cleaners will assess the
+                  property to determine the size , cleaning needs and special
+                  areas that needs attention.
                 </li>
                 <li>
-                   They may consult with the client to understand their
+                  They may consult with the client to understand their
                   priorities and preference for the cleaning process.
-                  <li></li> Then , they will start with the dusting as dusting
-                  is performed systematically, starting from top to bottom, to
+                </li>
+                <li>
+                  Then , they will start with the dusting as dusting is
+                  performed systematically, starting from top to bottom, to
                   prevent dust from settling o already cleaned surfaces.
                   Specialists will use micro fibre cloths, duster, and vacuum
                   attachments to effectively remove dust from furniture,
                   shelves, baseboards, light fixtures and other surfaces.
-                  <li></li> Floor will be thoroughly vacuumed or swept to
-                  remove dirt , dust and debris. Our specialists will do deep
-                  cleaning of kitchens and bathrooms, including counterparts,
-                  sinks, appliances, cabinets and fixtures.
-                  <li></li> Appliances such as stoves, ovens, refrigerator,
-                  dishwashers and microwaves will be cleaned inside and outside
-                  to remove grease and food debris and stains. ( with little
-                  extra charge )<li></li> In the last stage , our experts will
-                  perform final touches to ensure that all areas are cleaned ,
-                  organized and visually appealing.
+                </li>
+                <li>
+                  Floor will be thoroughly vacuumed or swept to remove dirt,
+                  dust and debris. Our specialists will do deep cleaning of
+                  kitchens and bathrooms, including counterparts, sinks,
+                  appliances, cabinets and fixtures.
+                </li>
+                <li>
+                  Appliances such as stoves, ovens, refrigerator, dishwashers
+                  and microwaves will be cleaned inside and outside to remove
+                  grease and food debris and stains. (with little extra charge)
+                </li>
+                <li>
+                  In the last stage , our experts will perform final touches to
+                  ensure that all areas are cleaned , organized and visually
+                  appealing.
                 </li>
               </ul>
             </span>

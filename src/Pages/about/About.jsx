@@ -1,7 +1,7 @@
 import styles from "./about.module.css";
 import randomImg from "../../Assets/Images/Final_img/11.jpg";
 import teamImg from "../../Assets/Images/Final_img/10.jpg";
-import aboutCoverImg from "../../Assets/Images/Final_img/9.jpg";
+import aboutCoverImg from "../../Assets/Images/Final_img/10.jpg";
 
 const About = () => {
   return (
@@ -9,7 +9,12 @@ const About = () => {
       <div className={styles.wrapper}>
         <div
           className={styles.heading}
-          style={{ backgroundImage: `url(${aboutCoverImg})` }}
+          style={{
+            backgroundImage: `url(${aboutCoverImg})`,
+            backgroundSize: "contain",
+            backgroundRepeat: "no-repeat",
+            backgroundPosition: "top",
+          }}
         >
           {" "}
           ABOUT US{" "}
@@ -23,10 +28,10 @@ const About = () => {
             </span>
 
             <span className={styles.aboutDesc}>
-              At Best 1 Cleaners , we’re known across Australis for our
-              top-notch Domestic and Commercial cleaning and maintenance
-              services. Whether it’s Hospitality, Education, Fitness, Retail, or
-              the medical sector, we’ve got you covered.
+              At Best 1 Cleaners, we’re known across Australis for our top-notch
+              Domestic and Commercial cleaning and maintenance services. Whether
+              it’s Hospitality, Education, Fitness, Retail, or the medical
+              sector, we’ve got you covered.
               <br />
               <br />
               Our team of cleaning professionals is the cream of the crop. We
@@ -34,9 +39,9 @@ const About = () => {
               checks, ensuring they meet our high standards.
               <br />
               <br />
-              Our goal is simple : provide world- class cleaning services while
-              minimizing our impact on the environment. That’s why we use safe ,
-              eco- friendly products and supplies.
+              Our goal is simple: provide world- class cleaning services while
+              minimizing our impact on the environment. That’s why we use safe,
+              eco-friendly products and supplies.
               <br />
               <br />
               With Best 1 Cleaners, you can trust that your space will be
@@ -52,7 +57,7 @@ const About = () => {
           <div className={styles.ourStoryText}>
             <span className={styles.ourStoryHead}>
               {" "}
-              Choose us and you will receive :-
+              Choose us and you will receive
             </span>
 
             <span className={styles.ourStoryDesc}>
@@ -86,7 +91,7 @@ const About = () => {
               {" "}
               If you want more details about our cleaning services or are
               interested in learning about our recycling programs, don’t
-              hesitate to reach out to us. We’re here to help !
+              hesitate to reach out to us. We’re here to help!
             </span>
           </div>
 

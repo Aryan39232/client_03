@@ -1,6 +1,6 @@
 import styles from "../about/about.module.css";
-import randomImg from "../../Assets/Images/Final_img/1.jpg";
-import teamImg from "../../Assets/Images/Final_img/1.jpg";
+import randomImg from "../../Assets/Images/Final_img/13.jpg";
+import teamImg from "../../Assets/Images/Final_img/13.jpg";
 import aboutCoverImg from "../../Assets/Images/Final_img/1.jpg";
 
 const Gardening = () => {
@@ -12,31 +12,33 @@ const Gardening = () => {
           style={{ backgroundImage: `url(${aboutCoverImg})` }}
         >
           {" "}
-          Gardening & Lawn Mowing Services{" "}
+          GARDENING & LAWN MOWING SERVICES{" "}
         </div>
 
         <div className={styles.ourStoryWrapper}>
           <div className={styles.ourStoryText}>
             <span className={styles.ourStoryHead}>
               {" "}
-              Rest Easy, Sleep Healthy: Sparkling Clean Mattresses, Naturally!{" "}
+              {/* Rest Easy, Sleep Healthy, Sparkling Clean Mattresses, Naturally!{" "} */}
             </span>
 
-            <span className={styles.ourStoryDesc}>
-              Your trusted partner for garden maintenance and lawn mowing
-              services. With our expertise and dedication , we ensure that your
-              outdoor spaces thrive throught the seasons. Unlock the Beauty of
-              Your Outdoor Space with Top-Quality Gardening Services in
-              Australias
-              <br />
-              <br />
-              At Best 1 Cleaners , we can help you with all your garden
-              maintenance needs.
-              <br />
-              <br />
-              We offer customized garden maintenance service packages,
-              fortnightly, weekly or also once-off garden maintenance package.
-            </span>
+            <b>
+              <span className={styles.ourStoryDesc}>
+                Your trusted partner for garden maintenance and lawn mowing
+                services. With our expertise and dedication , we ensure that
+                your outdoor spaces thrive throught the seasons. Unlock the
+                Beauty of Your Outdoor Space with Top-Quality Gardening Services
+                in Australias
+                <br />
+                <br />
+                At Best 1 Cleaners , we can help you with all your garden
+                maintenance needs.
+                <br />
+                <br />
+                We offer customized garden maintenance service packages,
+                fortnightly, weekly or also once-off garden maintenance package.
+              </span>
+            </b>
           </div>
 
           {/* <img src={teamImg} className={styles.ourStoryImg} alt="" /> */}
@@ -57,13 +59,13 @@ const Gardening = () => {
               <br />
               <br />
               <ul>
-                <li>• Service Precise mowing to the desired height.</li>
+                <li>Service Precise mowing to the desired height.</li>
                 <li>
-                  • Edging along sidewalks, driveways, and flower beds for a
-                  clean finish.
+                  Edging along sidewalks, driveways, and flower beds for a clean
+                  finish.
                 </li>
                 <li>
-                  • Removal of grass clippings and debris from walkways and
+                  Removal of grass clippings and debris from walkways and
                   hardscapes.
                 </li>
               </ul>
@@ -77,16 +79,16 @@ const Gardening = () => {
               <br />
               <ul>
                 <li>
-                  • Pruning and shaping of shrubs and bushes to promote healthy
+                  Pruning and shaping of shrubs and bushes to promote healthy
                   growth.
                 </li>
                 <li>
-                  • Weed control to prevent unwanted vegetation from competing
+                  Weed control to prevent unwanted vegetation from competing
                   with your plants,
                 </li>
                 <li>
-                  • Mulching to retain moisture, suppress weeds, and improve
-                  soil health.
+                  Mulching to retain moisture, suppress weeds, and improve soil
+                  health.
                 </li>
               </ul>
             </span>
@@ -100,15 +102,15 @@ const Gardening = () => {
               <br />
               <ul>
                 <li>
-                  • Leaf removal to prevent buildup and protect your grass from
+                  Leaf removal to prevent buildup and protect your grass from
                   suffocation.
                 </li>
                 <li>
-                  • Aeration and overseeding to promote healthy root growth and
+                  Aeration and overseeding to promote healthy root growth and
                   fill in bare patches.
                 </li>
                 <li>
-                  • Winterization to safeguard your plants and landscaping
+                  Winterization to safeguard your plants and landscaping
                   features from harsh weather conditions
                 </li>
               </ul>
@@ -121,14 +123,14 @@ const Gardening = () => {
               <br />
               <ul>
                 <li>
-                  • Precision trimming to maintain the shape and structure of
-                  your hedges.
+                  Precision trimming to maintain the shape and structure of your
+                  hedges.
                 </li>
                 <li>
-                  • Removal of dead or overgrown branches to promote new growth.
+                  Removal of dead or overgrown branches to promote new growth.
                 </li>
                 <li>
-                  • Cleanup and disposal of clipping to leave your outdoor space
+                  Cleanup and disposal of clipping to leave your outdoor space
                   looking tidy and pristine.
                 </li>
               </ul>
@@ -205,7 +207,7 @@ const Gardening = () => {
               aeration and over seeding in the spring, and winterization to
               protect plants from frost and cold temperatures.
               <br />• Seasonal cleanups help maintain the health and vitality of
-              the outdoor space year- around.
+              the outdoor space year-around.
             </span>
             <b>
               By following these methods and process by our best 1 cleaners can

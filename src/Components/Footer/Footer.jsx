@@ -60,26 +60,26 @@ const Footer = () => {
             <p>
               <b>PHONE</b>
             </p>
-            <p>0411786128</p>
+            <p>+61 411786128</p>
           </div>
           <div className={styles.socialmedia}>
             <p>
-              {" "}
+              {/* {" "}
               <a
                 href="https://www.facebook.com/people/BEST-1-cleaners/61554789891062/?sk=about"
                 target="black"
-              >
-                <FaTwitter size={20} />
-              </a>{" "}
+              > */}
+              <FaTwitter size={20} />
+              {/* </a>{" "} */}
             </p>
             <p>
-              {" "}
+              {/* {" "}
               <a
                 href="https://www.facebook.com/people/BEST-1-cleaners/61554789891062/?sk=about"
                 target="black"
-              >
-                <FaInstagram size={20} />
-              </a>{" "}
+              > */}
+              <FaInstagram size={20} />
+              {/* </a>{" "} */}
             </p>
             <p>
               <a
@@ -117,7 +117,7 @@ const Footer = () => {
 
       <div className={styles.sb__footer_below}>
         <div className={styles.sb__footer_copyright}>
-          <p>© {new Date().getFullYear()} Mehul. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Best 1. All rights reserved.</p>
         </div>
         <div className={styles.sb_footer_below_links}>
           <a href="">

@@ -1,7 +1,7 @@
 import styles from "./home.module.css";
 import { Carousel, Navbar, Services } from "../../Components";
 import { useNavigate } from "react-router-dom";
-import homeCoverPic from "../../Assets/Images/Final_img/1.jpg";
+import homeCoverPic from "../../Assets/Images/Final_img/7.jpg";
 import livingRoom from "../../Assets/Images/Final_img/1.jpg";
 import { IoCall } from "react-icons/io5";
 import "./modal.css";
@@ -118,7 +118,7 @@ function Home() {
         >
           <div className={styles.RightAlignedContent}>
             <div className={styles.CallUS}>
-              <IoCall /> &nbsp; +91 9876543210
+              <IoCall /> &nbsp; +61 411786128
             </div>
             <div className={styles.GETQUOTE} id="myBtn" onClick={handleModal}>
               GET A QUOTE
@@ -179,7 +179,7 @@ function Home() {
               tailored to meet the unique needs of our residential and
               commercial clients.
             </span>
-            <div className={styles.viewAllServicesBtn}> View All Services </div>
+            {/* <div className={styles.viewAllServicesBtn}> View All Services </div> */}
           </div>
 
           <img
@@ -189,74 +189,12 @@ function Home() {
           />
         </div>
 
-        {/* PRICES & DISCOUNTS DESCRIPTION */}
-        {/* <div className={styles.priceSectionWrapper}>
-          <div className={styles.priceCardsWrapper}>
-            
-            <div
-              className={styles.cardWrapper}
-              style={{ backgroundImage: `url(${priceCoverPic1})` }}
-            >
-              <span className={styles.priceCardDesc}>
-                {" "}
-                $50 OFF + Free Backyard Cleaning{" "}
-              </span>
-              <span className={styles.priceCardTitle}> Bond Cleaning </span>
-            </div>
-
-            
-            <div
-              className={styles.cardWrapper}
-              style={{ backgroundImage: `url(${priceCoverPic2})` }}
-            >
-              <span className={styles.priceCardDesc}> $49/h </span>
-              <span className={styles.priceCardTitle}> Spring Cleaning </span>
-            </div>
-
-            
-            <div
-              className={styles.cardWrapper}
-              style={{ backgroundImage: `url(${priceCoverPic3})` }}
-            >
-              <span className={styles.priceCardDesc}>
-                {" "}
-                $50 OFF & Half Price on Range Hood/Stage Top{" "}
-              </span>
-              <span className={styles.priceCardTitle}> Oven Cleaning </span>
-            </div>
-
-          
-            <div
-              className={styles.cardWrapper}
-              style={{ backgroundImage: `url(${priceCoverPic4})` }}
-            >
-              <span className={styles.priceCardDesc}>
-                {" "}
-                $50 OFF + Free Hallway{" "}
-              </span>
-              <span className={styles.priceCardTitle}> Carpet Cleaning </span>
-            </div>
-          </div>
-
-          <div className={styles.priceSectionHead}>
-            <b> "Best1 Bond Clean" </b> is a one-stop-shop for all your cleaning
-            needs.
-          </div>
-          <div className={styles.priceSectionDesc}>
-            We have a simple mission - to serve our client with excellence and
-            deliver brilliant work. Essentially our purpose is serving our
-            clients with great respect, care and keep your home and workplace
-            clean, so you can focus on your important goals.
-          </div>
-          <div className={styles.checkPriceBtn}>CHECK ALL PRICES</div>
-        </div> */}
-
         {/* BOOK NOW SECTION */}
         <div className={styles.bookSectionWrapper}>
           <div className={styles.bookSectionHead}>Local cleaners near you!</div>
           <div className={styles.bookSectionDesc}>
             We serve both residential and commercial customers, and we can
-            proudly say that Optima Cleaners is a one-stop-shop for all your
+            proudly say that Best 1 Cleaners is a one-stop-shop for all your
             cleaning needs. Our main goal is to provide quality cleaning
             services at affordable rates and build a long term relationship with
             our clients.
