@@ -1,5 +1,5 @@
 import styles from "../about/about.module.css";
-import randomImg from "../../Assets/Images/Final_img/1.jpg";
+import randomImg from "../../Assets/Images/Final_img/6.jpg";
 import teamImg from "../../Assets/Images/Final_img/1.jpg";
 import aboutCoverImg from "../../Assets/Images/Final_img/1.jpg";
 
@@ -12,7 +12,7 @@ const Carpet = () => {
           style={{ backgroundImage: `url(${aboutCoverImg})` }}
         >
           {" "}
-          Carpet{" "}
+          CARPET CLEANING{" "}
         </div>
         <div className={styles.ourStoryWrapper}>
           <div className={styles.ourStoryText}>
@@ -196,9 +196,9 @@ const Carpet = () => {
               <br />
               Secondly, we apply pre- treatment to solution to the high traffic
               area, stains and spots. After that , our professionals will
-              agitate your carpet or rug fibre with brush or rotary machine ( if
-              needed ) to loosen imbedded dirt. The 3rd step is HOT WATER
-              EXTRACTION ( steam cleaning ) in this step by using hot water
+              agitate your carpet or rug fibre with brush or rotary machine (if
+              needed) to loosen imbedded dirt. The 3rd step is HOT WATER
+              EXTRACTION (steam cleaning) in this step by using hot water
               extraction machine to inject hot water and cleaning solution into
               your carpet or rug and machine will extract the solution along
               with dirt and contaminants. In the next stage , for some delicate

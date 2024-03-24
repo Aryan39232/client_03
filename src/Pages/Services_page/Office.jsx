@@ -1,7 +1,7 @@
 import styles from "../about/about.module.css";
-import randomImg from "../../Assets/Images/Final_img/1.jpg";
-import teamImg from "../../Assets/Images/Final_img/1.jpg";
-import aboutCoverImg from "../../Assets/Images/Final_img/1.jpg";
+import randomImg from "../../Assets/Images/Final_img/9.jpg";
+import teamImg from "../../Assets/Images/Final_img/9.jpg";
+import aboutCoverImg from "../../Assets/Images/Final_img/9.jpg";
 
 const Office = () => {
   return (
@@ -12,7 +12,7 @@ const Office = () => {
           style={{ backgroundImage: `url(${aboutCoverImg})` }}
         >
           {" "}
-          Office Cleaning{" "}
+          COMMERACIAL AND OFFICE CLEANING{" "}
         </div>
         <div className={styles.ourStoryWrapper}>
           <div className={styles.ourStoryText}>
@@ -28,9 +28,11 @@ const Office = () => {
               agents to large offices in corporate parks .
               <br />
               <br />
-              <p>Professional office cleaners Near you</p>
-              <p> We clean offices and commercial buildings of all sizes</p>
-              <p> 100% customer satisfaction guarantee</p>
+              <b>
+                <p>• Professional office cleaners Near you</p>
+                <p>• We clean offices and commercial buildings of all sizes</p>
+                <p>• 100% customer satisfaction guarantee</p>
+              </b>
               <br />
               <br />
               Thinking of good health for employees is the first priority of
@@ -55,7 +57,7 @@ const Office = () => {
           <div className={styles.about_text_content}>
             <span className={styles.aboutHead}>
               {" "}
-              What shoud I need to write
+              {/* What shoud I need to write */}
             </span>
 
             <span className={styles.aboutDesc}>
@@ -94,11 +96,11 @@ const Office = () => {
               special instructions or considerations. Then , we will customize
               cleaning plan that may include details such as frequency of
               cleaning ,specific task to be cleaned or any special
-              considerations or special products. In the
+              considerations or special products.
               <br />
               <br />
-              2nd step , our specialists will begin cleaning by dusting surfaces
-              such as desks, tables , shelves or other furniture using
+              In the 2nd step , our specialists will begin cleaning by dusting
+              surfaces such as desks, tables , shelves or other furniture using
               microfibre cloths or dusters. They wipe down surfaces to remove
               dust , fingerprints , and other visible debris , paying attention
               to detail in areas where buildup may occur. Our professional
@@ -106,31 +108,31 @@ const Office = () => {
               conducted to remove loose dirt, debris, and particulate matter.
               Depending on the type of flooring, office cleaner experts may use
               mops, floor scrubbers, or steam cleaners( if needed ) to achieve a
-              deeper clean and restore shine. In the
+              deeper clean and restore shine.
               <br />
               <br />
-               Our professional office cleaners will do vacuuming or sweeping
-              of floors is conducted to remove loose dirt, debris, and
-              particulate matter. Depending on the type of flooring, office
-              cleaner experts may use mops, floor scrubbers, or steam cleaners(
-              if needed ) to achieve a deeper clean and restore shine.
+              Our professional office cleaners will do vacuuming or sweeping of
+              floors is conducted to remove loose dirt, debris, and particulate
+              matter. Depending on the type of flooring, office cleaner experts
+              may use mops, floor scrubbers, or steam cleaners( if needed ) to
+              achieve a deeper clean and restore shine.
               <br />
               <br /> In the 3rd stage , our office cleaner experts will focus on
               kitchen and bathroom cleaning . Bathrooms and kitchen areas are
-              thoroughly cleaned and sanitized to maintain hygiene standards
+              thoroughly cleaned and sanitized to maintain hygiene standards.
               <br />
               <br /> Fixtures, sinks, countertops, and other surfaces are
               disinfected using appropriate cleaning agents to eliminate germs
               and bacteria.
               <br />
               <br />
-               They will ensure that glass doors and windows will be free from
-              smudges , fingerprints, water marks for a clear polished
+              They will ensure that glass doors and windows will be free from
+              smudges , fingerprints, water marks for a clear polished.
               appearance.
               <br />
               <br />
-               In the last process, all the trash bins will be emptied and
-              waste will be properly disposed according to local regulations.
+              In the last process, all the trash bins will be emptied and waste
+              will be properly disposed according to local regulations.
               Specialists will also separate recyclable materials and ensure
               they are placed in designated recycling containers for proper
               disposal.

@@ -74,12 +74,14 @@ function ContactUs() {
         <div className={styles.contact_info}>
           <div className={styles.info_section}>
             <span className={styles.contactName}>Email</span>
-            <span className={styles.contactDetail}>mehul@gmail.com</span>
+            <span className={styles.contactDetail}>
+              Admin@bestone1cleaners.com.au
+            </span>
           </div>
 
           <div className={styles.info_section}>
             <span className={styles.contactName}>Phone</span>
-            <span className={styles.contactDetail}>+1 123 456 7890</span>
+            <span className={styles.contactDetail}>+61 411786128</span>
           </div>
 
           <div className={styles.info_section}>
@@ -95,18 +97,21 @@ function ContactUs() {
             <span className={styles.contactDetail}>
               <p>
                 {" "}
-                <a href="https://www.x.com/" target="black">
-                  <FaTwitter size={20} />
-                </a>{" "}
+                {/* <a href="https://www.x.com/" target="black"> */}
+                <FaTwitter size={20} />
+                {/* </a>{" "} */}
               </p>
               <p>
                 {" "}
-                <a href="https://www.instagram.com/" target="black">
-                  <FaInstagram size={20} />
-                </a>{" "}
+                {/* <a href="https://www.instagram.com/" target="black"> */}
+                <FaInstagram size={20} />
+                {/* </a>{" "} */}
               </p>
               <p>
-                <a href="https://www.fb.com/" target="black">
+                <a
+                  href="https://www.facebook.com/people/BEST-1-cleaners/61554789891062/?sk=about"
+                  target="black"
+                >
                   <FaFacebook size={20} />
                 </a>{" "}
               </p>
@@ -120,7 +125,7 @@ function ContactUs() {
 
             <div className={styles.location}>
               <h3>Brisbane</h3>
-              <p> 39 Middle street , coopers plains QLD 4108</p>
+              <p> Spring hill QLD 4108</p>
               <p>0411786128</p>
             </div>
 

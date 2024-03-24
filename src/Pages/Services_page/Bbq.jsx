@@ -1,6 +1,6 @@
 import styles from "../about/about.module.css";
-import randomImg from "../../Assets/Images/Final_img/1.jpg";
-import teamImg from "../../Assets/Images/Final_img/1.jpg";
+import randomImg from "../../Assets/Images/Final_img/12.jpg";
+import teamImg from "../../Assets/Images/Final_img/12.jpg";
 import aboutCoverImg from "../../Assets/Images/Final_img/1.jpg";
 
 const Bbq = () => {
@@ -12,7 +12,7 @@ const Bbq = () => {
           style={{ backgroundImage: `url(${aboutCoverImg})` }}
         >
           {" "}
-          oven / BBQ SERVICES{" "}
+          OVEN & BBQ CLEANING{" "}
         </div>
 
         <div className={styles.ourStoryWrapperpart2}>
@@ -53,20 +53,19 @@ const Bbq = () => {
               </h2>
               <ul>
                 <li>
-                  • Who Use their oven on daily basis or more than twice per
-                  week{" "}
+                  Who Use their oven on daily basis or more than twice per week{" "}
                 </li>
-                <li>• Who Use their BBQ on a regular basis or some occasion</li>
+                <li>Who Use their BBQ on a regular basis or some occasion</li>
                 <li>
-                  •Who Are leaving a property or moving to the new one and
+                  Who Are leaving a property or moving to the new one and
                   require oven cleaning
                 </li>
                 <li>
-                  • Who Are renting their property via a holiday outlet and
+                  Who Are renting their property via a holiday outlet and
                   require BBQ cleaning for guests{" "}
                 </li>
                 <li>
-                  • Who Have not used their BBQ for long time and require BBQ
+                  Who Have not used their BBQ for long time and require BBQ
                   cleaning
                 </li>
               </ul>
@@ -78,7 +77,7 @@ const Bbq = () => {
           <div className={styles.about_text_content}>
             <span className={styles.aboutHead}>
               {" "}
-              our BEST 1 CLEANERS oven / BBQ cleaning process{" "}
+              our BEST 1 CLEANERS OVEN/BBQ cleaning process{" "}
             </span>
 
             <span className={styles.aboutDesc}>
@@ -180,7 +179,7 @@ const Bbq = () => {
               for some time penetrate the grime.
               <br />
               <br />
-              5.Scrubbing :- Use a wire brush or a grill brush to scrub away
+              5. Scrubbing :- Use a wire brush or a grill brush to scrub away
               stubborn residue. Pay attention to corners and hard – to – reach
               areas.
               <br />
@@ -193,7 +192,7 @@ const Bbq = () => {
               before reassembling the BBQ .
               <br />
               <br />
-              8 . Exterior Cleaning :- Clean the exterior surfaces of the BBQ
+              8. Exterior Cleaning :- Clean the exterior surfaces of the BBQ
               with ECO friendly chemicals.
               <br />
               <br />
