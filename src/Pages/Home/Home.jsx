@@ -283,6 +283,7 @@ function Home() {
                   className={styles.formInput}
                   type="text"
                   id="fullName"
+                  value={formData.fullName}
                   onChange={handleInputChange}
                   name="fullName"
                   required
@@ -296,6 +297,7 @@ function Home() {
                   className={styles.formInput}
                   type="email"
                   id="email"
+                  value={formData.email}
                   onChange={handleInputChange}
                   name="email"
                 />
@@ -309,6 +311,7 @@ function Home() {
                 type="tel"
                 id="phone"
                 name="phoneNumber"
+                value={formData.phoneNumber}
                 onChange={handleInputChange}
               />
             </div>
@@ -318,8 +321,9 @@ function Home() {
               <textarea
                 className={styles.formInput}
                 id="jobDescription"
-                name="jobDescription"
+                name="message"
                 rows="4"
+                value={formData.message}
                 onChange={handleInputChange}
                 required
               />
