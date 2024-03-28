@@ -15,7 +15,7 @@ import {
 import { Footer, Navbar } from "./Components";
 import Servicess from "./Pages/Services_page/Servicess";
 import Upper_Footer from "./Components/Upper_Footer/Upper_Footer";
-
+import { ToastContainer, toast } from "react-toastify";
 function App() {
   return (
     <>

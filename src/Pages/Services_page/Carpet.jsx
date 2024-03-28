@@ -1,7 +1,7 @@
 import styles from "../about/about.module.css";
 import randomImg from "../../Assets/Images/Final_img/6.jpg";
 import teamImg from "../../Assets/Images/Final_img/1.jpg";
-import aboutCoverImg from "../../Assets/Images/Final_img/1.jpg";
+import aboutCoverImg from "../../Assets/Images/Services/3913.jpg";
 
 const Carpet = () => {
   return (
