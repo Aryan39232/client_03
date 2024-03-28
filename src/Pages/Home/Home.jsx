@@ -5,6 +5,7 @@ import homeCoverPic from "../../Assets/Images/Final_img/7.jpg";
 import livingRoom from "../../Assets/Images/Final_img/1.jpg";
 import { IoCall } from "react-icons/io5";
 import "./modal.css";
+import "react-toastify/dist/ReactToastify.css";
 // Card Images
 import priceCoverPic1 from "../../Assets/Images/Home/cleaning-sample.jpg";
 import priceCoverPic2 from "../../Assets/Images/Home/cleaning-sample-2.jpg";
@@ -24,6 +25,7 @@ import Upper_Footer from "../../Components/Upper_Footer/Upper_Footer";
 import { useEffect, useState } from "react";
 import Testimonials from "../Testimonial/Testimonials";
 import emailjs from "@emailjs/browser";
+import { ToastContainer, toast } from "react-toastify";
 
 function Home() {
   const navigate = useNavigate();
@@ -76,8 +78,16 @@ function Home() {
         message: "",
         fullName: "",
       });
-
-      alert("Email sent successfully!");
+      toast.success("Email send Successfully!", {
+        position: "top-right",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "light",
+      });
     } catch (error) {
       console.error("Error sending email:", error);
     }
@@ -335,6 +345,7 @@ function Home() {
           </form>
         </div>
       </div>
+      <ToastContainer />
     </>
   );
 }

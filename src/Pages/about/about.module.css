@@ -1,9 +1,13 @@
 .heading {
   height: 300px;
   background-size: cover;
+  /* background-clip: padding-box; */
+  background-repeat: no-repeat;
   background-color: rgb(134, 134, 134);
   /* Remove background-blend-mode if not necessary */
-  background-blend-mode: none; /* or whatever is appropriate */
+  background-blend-mode: none;
+  /* or whatever is appropriate */
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -11,7 +15,7 @@
   font-weight: 500;
   color: white;
   /* Adjust background-position */
-  background-position: center center; /* Center the background image both horizontally and vertically */
+  /* background-position: center center; Center the background image both horizontally and vertically */
 }
 
 /* Who is Best1 */
