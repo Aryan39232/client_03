@@ -88,7 +88,18 @@ function Home() {
         progress: undefined,
         theme: "light",
       });
+      setShow(false);
     } catch (error) {
+      toast.error("Something Wrong", {
+        position: "top-right",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "light",
+      });
       console.error("Error sending email:", error);
     }
   };
@@ -252,7 +263,9 @@ function Home() {
             </div>
           </div>
 
-          <div className={styles.bookNowBtn}>GET QUOTE</div>
+          <div className={styles.bookNowBtn} id="myBtn" onClick={handleModal}>
+            GET QUOTE
+          </div>
         </div>
 
         {/* Founder's Message */}

@@ -4,6 +4,8 @@ import { FaTwitter, FaInstagram, FaFacebook } from "react-icons/fa";
 import emailjs from "@emailjs/browser";
 import { useState } from "react";
 import { useEffect } from "react";
+import "react-toastify/dist/ReactToastify.css";
+import { ToastContainer, toast } from "react-toastify";
 function ContactUs() {
   const options = {
     publicKey: process.env.REACT_PUBLIC_KEY,
@@ -50,8 +52,27 @@ function ContactUs() {
         fullName: "",
       });
 
-      alert("Email sent successfully!");
+      toast.success("Email send Successfully!", {
+        position: "top-right",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "light",
+      });
     } catch (error) {
+      toast.error("Something Wrong", {
+        position: "top-right",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "light",
+      });
       console.error("Error sending email:", error);
     }
   };
@@ -198,6 +219,7 @@ function ContactUs() {
           </form>
         </div>
       </div>
+      <ToastContainer />
     </>
   );
 }

@@ -11,8 +11,7 @@ const About = () => {
           className={styles.heading}
           style={{
             backgroundImage: `url(${aboutCoverImg})`,
-            backgroundSize: "contain",
-            backgroundRepeat: "no-repeat",
+
             backgroundPosition: "top",
           }}
         >

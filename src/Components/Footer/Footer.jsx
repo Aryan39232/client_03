@@ -2,23 +2,26 @@ import React from "react";
 import styles from "./footer.module.css";
 import { FaTwitter, FaInstagram, FaFacebook } from "react-icons/fa";
 import LogoImage from "../../Assets/Images/new_logo.png";
+import { useNavigate } from "react-router-dom";
 
 const Footer = () => {
+  const navigate = useNavigate();
   return (
     <div className={styles.sb_footer}>
       <div className={styles.sb_footer_link}>
         <div className={styles.sub_footer_div_link}>
           <h4>Menu</h4>
-          <a href="/home">
+
+          <a href="/">
             <p>Home</p>
           </a>
-          <a href="./about/about">
+          <a href="/about">
             <p>About Us</p>
           </a>
-          <a href="/Contact Us">
+          <a href="/contact">
             <p>Contact Us</p>
           </a>
-          <a href="/Testimonials">
+          <a href="/testimonials">
             <p>Testimonials</p>
           </a>
 
@@ -27,26 +30,26 @@ const Footer = () => {
 
         <div className={styles.sub_footer_div_link}>
           <h4>SERVICES</h4>
-          <a href="/End Of Lease Cleaning">
+          <a href="/EndOfLease">
             <p>End Of Lease Cleaning</p>
           </a>
-          <a href="/After Builders Cleaning">
-            <p>After Builders Cleaning</p>
+          <a href="/Spring-services">
+            <p>Spring Cleaning</p>
           </a>
-          <a href="/Home Cleaning">
+          <a href="/Home-clean-services">
             <p>Home Cleaning</p>
           </a>
-          <a href="/Office Cleaning">
+          <a href="/office-services">
             <p>Office Cleaning</p>
           </a>
-          <a href="/Upholstery and Couch Cleaning">
-            <p>Upholstery and Couch Cleaning</p>
+          <a href="/gardening-services">
+            <p>Gradening & lawn mowing services</p>
           </a>
-          <a href="/Tile and Grout Cleaning">
-            <p>Tile and Grout Cleaning</p>
+          <a href="/Carpet-services">
+            <p>Carpet Cleaning </p>
           </a>
-          <a href="/Spring Cleaning">
-            <p>Spring Cleaning</p>
+          <a href="/bbq-services">
+            <p>Oven & Bbq Cleaning</p>
           </a>
         </div>
 
