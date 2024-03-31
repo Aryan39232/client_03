@@ -123,16 +123,12 @@ const Footer = () => {
           <p>© {new Date().getFullYear()} Best 1. All rights reserved.</p>
         </div>
         <div className={styles.sb_footer_below_links}>
-          <a href="">
-            <div>
-              <p>Term & Conditions</p>
-            </div>
-          </a>
-          <a href="">
-            <div>
-              <p>Privacy</p>
-            </div>
-          </a>
+          <div>
+            <p>Term & Conditions</p>
+          </div>s
+          <div>
+            <p>Privacy</p>
+          </div>
         </div>
       </div>
     </div>
